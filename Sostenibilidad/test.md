@@ -446,6 +446,86 @@
     <button class="opcion" onclick="verificar(this, false)">d) Un menor beneficio a la larga.</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>53. La fase del ciclo de vida del producto en la que el producto es puesto al servicio del consumidor se conoce como:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Producción.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Distribución.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Consumo.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Desecho.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>54. En el modelo lineal de producción y consumo, cada fase del ciclo de vida del producto se relaciona directamente:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Solo con la inmediata anterior.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Con todas las demás al mismo tiempo.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Con la inmediatamente anterior y la inmediatamente posterior.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Con todas las que tiene detrás.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>55. Si utilizamos recursos no renovables para producir nuestro bien o servicio, nos exponemos al riesgo de:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Contaminación.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Escasez de recursos y precios cada vez mayores.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Problemas de seguridad en el trabajo.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Menores oportunidades de expansión a otros mercados.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>56. Cuando aplicamos la regla de las 7 «R», el valor de los recursos y productos a lo largo de su ciclo de vida:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Se reduce rápidamente.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Se mantiene por más tiempo.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Aumenta rápidamente.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) No se ve afectado.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>57. Dos procesos asociados a la economía circular son:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La deforestación y la desertización.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La deslocalización y la externalización.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) La desmaterialización y la descarbonización.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La descentralización y la concentración.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>58. La fase de la evaluación de producción limpia en la que se diseña y ejecuta un plan de acción es la de:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Recogida y análisis de datos.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Generación de opciones.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Implementación.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Evaluación y control.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>59. No es una opción de implantación de la producción limpia:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Los cambios en los materiales.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Los cambios en la demanda.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Los cambios en el producto.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La reutilización in situ.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>60. El ecodiseño busca:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) La integración de aspectos medioambientales en el diseño.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La implantación de procesos de producción más respetuosos con el medio ambiente.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La integración de aspectos medioambientales en las decisiones de los consumidores.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La integración de los aspectos económicos en el diseño.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>61. Una forma de usar materiales de impacto reducido es:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Usar materiales de proveedores locales.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Añadir multifuncionalidad al producto.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Reducir el número de procesos en la producción.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Reducir las necesidades de mantenimiento.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>62. Todo proceso de ecodiseño debe comenzar por:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Identificar la fases del ciclo de vida del producto.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Identificar estrategias de mejora medioambiental del producto.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Desarrollar soluciones técnicas.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Fijar objetivos o metas medioambientales.</button>
+  </div>
+
 <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
