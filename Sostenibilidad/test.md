@@ -1,4 +1,3 @@
-# Test 1: Sostenibilidad
 
 **1. El sistema biológico formado por una comunidad de seres vivos que habita un medio físico se denomina:**
 a) Sistema humano.
