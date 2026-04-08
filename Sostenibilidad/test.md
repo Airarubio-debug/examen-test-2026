@@ -366,6 +366,86 @@
     <button class="opcion" onclick="verificar(this, false)">d) Reducción de impuestos.</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>43. La mayor parte del empleo lo generan:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Las empresas.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Las administraciones.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Las entidades del tercer sector.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La banca.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>44. Sobre los grupos de interés, señala la afirmación falsa:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Son colectivos humanos.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Son capaces de influir en las decisiones de la empresa.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Las decisiones de la empresa los influyen a ellos.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Siempre son externos a la empresa.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>45. Es un grupo de interés interno:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Los proveedores.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La competencia.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Los clientes.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Los propietarios.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>46. El grupo de interés que persigue obtener de la empresa el mejor producto posible al menor precio posible son:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Los propietarios.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Los directivos.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Los clientes.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Los proveedores.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>47. Los aspectos ASG relacionados con el trato a las personas internas y externas a la empresa son:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Aspectos ambientales.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Aspectos sociales.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Aspectos de gobernanza.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Aspectos financieros.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>48. Los aspectos ASG relacionados con la ética empresarial son:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Aspectos ambientales.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Aspectos sociales.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Aspectos de gobernanza.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Aspectos filosóficos.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>49. No es un aspecto ASG ambiental:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La adaptación al cambio climático.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La biodiversidad y los ecosistemas.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El uso de recursos y la economía circular.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) La relación con las comunidades.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>50. Un estado no financiero organiza sus indicadores según:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Los ODS.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Los grupos de interés.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Las líneas de negocio.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Los aspectos ASG.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>51. Las normas NEIS han sido creadas por:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) La Unión Europea.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Las Naciones Unidas.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El Gobierno de España.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La Consejería de Medio Ambiente.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>52. La integración de aspectos ASG en la empresa supone para ella:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Un peor acceso a financiación.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Una mejor imagen de marca.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Una peor retención del talento.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Un menor beneficio a la larga.</button>
+  </div>
+
 <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
