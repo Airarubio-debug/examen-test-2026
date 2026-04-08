@@ -918,10 +918,35 @@
 <script>
   let indexActual = 0;
   let aciertos = 0;
-  const preguntas = document.querySelectorAll('.pregunta');
-  const btnSiguiente = document.getElementById('btn-siguiente');
   const contenedorTest = document.getElementById('contenedor-test');
+  const btnSiguiente = document.getElementById('btn-siguiente');
   const divResultados = document.getElementById('resultados');
+
+  // 1. Recogemos todas las preguntas y las metemos en una lista
+  let preguntasArray = Array.from(document.querySelectorAll('.pregunta'));
+
+  // 2. Función matemática para barajar aleatoriamente
+  function mezclarPreguntas(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  }
+
+  // 3. Barajamos las preguntas
+  mezclarPreguntas(preguntasArray);
+
+  // 4. Quitamos el estado "activa" de la pregunta 1 original y reordenamos el HTML
+  preguntasArray.forEach(pregunta => {
+    pregunta.classList.remove('activa');
+    contenedorTest.appendChild(pregunta); // Esto mueve el bloque al nuevo orden
+  });
+
+  // 5. Encendemos la que haya quedado primera tras barajar
+  preguntasArray[0].classList.add('activa');
+
+  // Guardamos el nuevo orden para que lo usen los botones
+  const preguntas = preguntasArray;
 
   function verificar(boton, esCorrecto) {
     let contenedor = boton.parentElement;
