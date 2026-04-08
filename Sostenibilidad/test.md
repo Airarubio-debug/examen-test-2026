@@ -59,3 +59,120 @@
     <p><strong>4. Para que los ecosistemas sean sostenibles, nuestra huella ecológica debe ser:</strong></p>
     <button class="opcion" onclick="verificar(this, true)">a) Inferior a la biocapacidad.</button>
     <button class="opcion" onclick="verificar(this, false)">b) Superior a la biocapacidad.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Basta con que sea reducida.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Es independiente de la biocapacidad.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>5. El cambio climático actual tiene su principal origen en:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) La actividad económica.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La capa de ozono.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La actividad del Sol.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La contaminación del suelo.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>6. El mayor efecto medioambiental de la contaminación atmosférica es:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) El efecto invernadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Las formas de producir que despilfarran recursos.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La pérdida de biodiversidad.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La contaminación del suelo.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>7. El cambio climático supone para las empresas:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Menor demanda de energía en los hogares.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Una mayor productividad de su plantilla.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) El aumento de las primas de sus seguros.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Un aumento en sus ingresos.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>8. Plantar bosques es una medida de:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Descarbonización.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Desmaterialización.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Desertización.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Adaptación.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>9. Las medidas de mitigación buscan:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Adaptar la empresa a la nueva situación climática.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Frenar o atenuar el cambio climático.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Atender a las personas con problemas de salud causados por el cambio climático.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Reducir la actividad económica, en todo caso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>10. La Agenda 2030:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Es única, y su objetivo es guiar las acciones de las Naciones Unidas.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Es adaptada por muchas administraciones públicas para guiar sus propias estrategias de desarrollo sostenible.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Se creó como iniciativa del Gobierno de España.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Busca que la Unión Europea se vuelva neutral en emisiones de carbono para 2030.</button>
+  </div>
+</div>
+
+<button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
+
+<div id="resultados">
+  <h2>¡Test completado! 🎉</h2>
+  <p style="font-size: 18px;">Has acertado <strong id="aciertos">0</strong> de <strong id="total">0</strong> preguntas.</p>
+  <button id="btn-repetir" onclick="location.reload()">↻ Repetir test</button>
+</div>
+
+<script>
+  let indexActual = 0;
+  let aciertos = 0;
+  const preguntas = document.querySelectorAll('.pregunta');
+  const btnSiguiente = document.getElementById('btn-siguiente');
+  const contenedorTest = document.getElementById('contenedor-test');
+  const divResultados = document.getElementById('resultados');
+
+  function verificar(boton, esCorrecto) {
+    let contenedor = boton.parentElement;
+    let botones = contenedor.querySelectorAll('button.opcion');
+    
+    // Deshabilita botones de esta pregunta para no poder pulsar dos veces
+    botones.forEach(b => {
+      b.disabled = true;
+      b.style.cursor = 'default';
+    });
+
+    if (esCorrecto) {
+      boton.classList.add('correcta');
+      boton.innerHTML += " ✅";
+      aciertos++;
+    } else {
+      boton.classList.add('incorrecta');
+      boton.innerHTML += " ❌";
+      // Te muestra la correcta en verde
+      botones.forEach(b => {
+        if(b.getAttribute("onclick").includes("true")) {
+          b.classList.add('correcta');
+        }
+      });
+    }
+    
+    // Muestra el botón de siguiente
+    btnSiguiente.style.display = 'block';
+  }
+
+  function siguientePregunta() {
+    // Oculta la pregunta actual
+    preguntas[indexActual].classList.remove('activa');
+    btnSiguiente.style.display = 'none';
+    
+    indexActual++;
+
+    if (indexActual < preguntas.length) {
+      // Muestra la siguiente
+      preguntas[indexActual].classList.add('activa');
+    } else {
+      // Si ya no hay más, muestra los resultados
+      contenedorTest.style.display = 'none';
+      divResultados.style.display = 'block';
+      document.getElementById('aciertos').innerText = aciertos;
+      document.getElementById('total').innerText = preguntas.length;
+    }
+  }
+</script>
