@@ -526,6 +526,86 @@
     <button class="opcion" onclick="verificar(this, false)">d) Fijar objetivos o metas medioambientales.</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>63. Un dato o un conjunto de datos que permite medir el rendimiento de una actividad en relación con un objetivo o una meta es:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Un objetivo.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Un indicador de desempeño.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Una meta.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Un sistema de gestión ambiental.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>64. En la fijación de objetivos para la empresa, es importante tomar como punto de partida:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) El análisis de cada proceso.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Seleccionar objetivos relevantes.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Comprobar los medios disponibles para cumplirlos.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Fijar un horizonte temporal.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>65. El objetivo de la evaluación del desempeño medioambiental es:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Implantar indicadores clave de desempeño en la empresa.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Establecer fórmulas que indiquen cómo calcular los indicadores.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Encontrar culpables de que los planes no se cumplan.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Lograr la mejora continua en los procesos y en la empresa.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>66. ¿Qué tipo de certificados de sostenibilidad medioambiental reconocidos en normas ISO no requieren de entidades externas a la empresa que los utiliza?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Los de tipo I (ecoetiquetas).</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Los de tipo II (autodeclaraciones ambientales).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Los de tipo III (declaraciones ambientales de producto).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Los no cubiertos por normas ISO.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>67. ¿Qué certificado está formado por la bandera europea y una hoja con diversas formas que representa la naturaleza y la sostenibilidad?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La Etiqueta Ecológica Europea (EEE).</button>
+    <button class="opcion" onclick="verificar(this, true)">b) El logotipo de producción ecológica de la UE.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El certificado FSC de gestión forestal.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El certificado de pesca sostenible.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>68. Sobre la Etiqueta Ecológica Europea (EEE), señala la afirmación falsa:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Es una etiqueta de tipo I.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Requiere que la empresa redacte un informe sobre sus actividades.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Es gestionado directamente por la UE.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Es necesario pagar una tasa para gestionar su solicitud.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>69. ¿Cuál de las afirmaciones siguientes no se refiere a la inversión financiera?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Tiene relación con la inversión productiva.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Consiste en producir un bien o servicio para venderlo en el mercado.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Se refleja en unos documentos llamados títulos.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) En su análisis se tiene en cuenta la rentabilidad, el riesgo y la liquidez.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>70. Selecciona la respuesta más completa. El análisis de inversiones socialmente responsables (ISR) valora:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La rentabilidad.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El riesgo.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Los aspectos ASG.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Todo lo anterior.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>71. Los indicadores de inversión socialmente responsable (ISR) con integración de aspectos ASG:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Son listados que excluyen a empresas que se dedican a actividades abiertamente incompatibles con los ODS y la sostenibilidad.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Incluyen solo a empresas que se dedican a actividades especialmente vinculadas con la sostenibilidad.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Incluyen títulos de empresas que cumplen con los criterios ASG de acuerdo con los estándares fijados por las agencias que han creado y gestionan esos índices.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Consideran los aspectos ASG, solamente.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>72. Las organizaciones normalizadoras:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Crean las leyes que rigen la actividad de las empresas y las personas, y toman decisiones de gobierno y gestión diaria.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Crean normas especializadas que regulan actividades y procesos concretos.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Son empresas acreditadas para extender certificados de sostenibilidad, entre otros.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Califican inversiones y empresas en función del grado de cumplimiento de los aspectos ASG.</button>
+  </div>
+
 <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
