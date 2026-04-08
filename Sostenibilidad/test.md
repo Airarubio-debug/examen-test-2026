@@ -286,6 +286,86 @@
     <button class="opcion" onclick="verificar(this, false)">d) Sustituyen cualquier marco normativo europeo</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>33. No es una dimensión como tal de los ODS:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La económica.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La ecológica.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) La cultural.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La social.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>34. Los ODS:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Son objetivos de obligado cumplimiento por las empresas de todos los países, y la ONU invita a las administraciones públicas a sumarse a ellos.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Son objetivos de obligado cumplimiento por todas las personas, y la ONU invita a todas las administraciones públicas a sumarse a ellos.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Son objetivos de obligado cumplimiento por las administraciones públicas, y la ONU invita a todas las personas y empresas a sumarse a ellos.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Son objetivos de obligado cumplimiento por las administraciones públicas, las empresas y las personas de todos los países.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>35. ¿Cuál es la función de los indicadores de desempeño?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Guiar y coordinar las acciones de la humanidad para lograr el desarrollo sostenible.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Especificar situaciones de llegada concretas en relación con cada ODS.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Medir el grado de consecución de las metas del desarrollo sostenible.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Informar de la rentabilidad de una empresa.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>36. No es un ámbito del consumo responsable:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El agua.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Los bienes de consumo duradero.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El transporte.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) La producción.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>37. Desplazarse a pie ayuda especialmente a cumplir el ODS:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) 8. Trabajo decente y crecimiento económico.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) 11. Ciudades y comunidades sostenibles.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) 12. Producción y consumo responsables.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) 15. Vida de ecosistemas terrestres.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>38. Un empleado de una empresa sin responsabilidades directivas puede ayudar al logro de los ODS:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Procurando aplicar en el puesto de trabajo principios similares a los del consumo responsable.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Esperando a que la dirección realice cambios que nos acerquen a los ODS.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Basta con hacer lo mismo que nuestros compañeros.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Sin responsabilidades de dirección no se puede trabajar por los ODS.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>39. Lo más recomendable para una empresa que quiere integrar los ODS en las estrategias y los planes de la empresa es implicarse en el logro de:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Un ODS concreto.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Una meta concreta.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Un indicador de desempeño concreto.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Todos los ODS al mismo tiempo.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>40. ¿Qué iniciativa de la UE busca lograr la neutralidad de emisiones de carbono? Señala la respuesta más completa:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El Pacto Verde Europeo.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La Estrategia de Movilidad Sostenible.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La Nueva Estrategia Industrial para Europa.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Todas las anteriores.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>41. No es una iniciativa surgida en la UE:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La Estrategia de Movilidad Sostenible.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) El acuerdo de París.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El Pacto Verde Europeo.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La Nueva Estrategia Industrial para Europa.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>42. Las iniciativas que la UE ha puesto en marcha para el logro de los ODS suponen ventajas para las empresas, como:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Normas medioambientales cada vez más estrictas.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Mayor posibilidad de recibir sanciones.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Ayudas para mejorar la resiliencia.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Reducción de impuestos.</button>
+  </div>
+
 <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
