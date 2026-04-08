@@ -907,7 +907,7 @@
     <button class="opcion" onclick="verificar(this, true)">a) Analizar de forma sistemática el impacto ambiental de la organización para identificar áreas de mejora continua</button>
     <button class="opcion" onclick
 
-<button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
+</div> <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
   <h2>¡Test completado! 🎉</h2>
@@ -922,24 +922,22 @@
   const btnSiguiente = document.getElementById('btn-siguiente');
   const divResultados = document.getElementById('resultados');
 
-  // 1. Recogemos todas las preguntas
   let preguntasArray = Array.from(document.querySelectorAll('.pregunta'));
 
-  // 2. TRUCO DE MAGIA: Borrar los números fijos de las preguntas automáticamente
+  // Borrar los números fijos de las preguntas
   preguntasArray.forEach(pregunta => {
     let textoPregunta = pregunta.querySelector('p strong');
     if (textoPregunta) {
-      // Esta orden busca cualquier número seguido de un punto al principio y lo borra
       textoPregunta.innerHTML = textoPregunta.innerHTML.replace(/^\d+\.\s*/, '');
     }
   });
 
-  // 3. Crear el contador de progreso visual y colocarlo arriba
+  // Crear el contador de progreso
   const progresoDiv = document.createElement('div');
   progresoDiv.style.cssText = 'text-align: center; font-weight: bold; font-size: 16px; color: #57606a; margin-bottom: 20px; background: #f6f8fa; padding: 10px; border-radius: 8px; border: 1px solid #d0d7de;';
   contenedorTest.parentNode.insertBefore(progresoDiv, contenedorTest);
 
-  // 4. Barajamos las preguntas
+  // Barajar las preguntas
   function mezclarPreguntas(array) {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -948,7 +946,7 @@
   }
   mezclarPreguntas(preguntasArray);
 
-  // 5. Reordenamos el código invisible y mostramos la primera
+  // Reordenar
   preguntasArray.forEach(pregunta => {
     pregunta.classList.remove('activa');
     contenedorTest.appendChild(pregunta); 
@@ -957,18 +955,15 @@
 
   const preguntas = preguntasArray;
 
-  // Función para actualizar el texto del contador
   function actualizarProgreso() {
     progresoDiv.innerText = `Pregunta ${indexActual + 1} de ${preguntas.length}`;
   }
-  actualizarProgreso(); // Lo ejecutamos para la primera pregunta
+  actualizarProgreso();
 
-  // Función que comprueba si has acertado
   function verificar(boton, esCorrecto) {
     let contenedor = boton.parentElement;
     let botones = contenedor.querySelectorAll('button.opcion');
     
-    // Bloqueamos los botones
     botones.forEach(b => {
       b.disabled = true;
       b.style.cursor = 'default';
@@ -981,7 +976,6 @@
     } else {
       boton.classList.add('incorrecta');
       boton.innerHTML += " ❌";
-      // Te chiva la correcta
       botones.forEach(b => {
         if(b.getAttribute("onclick").includes("true")) {
           b.classList.add('correcta');
@@ -992,7 +986,6 @@
     btnSiguiente.style.display = 'block';
   }
 
-  // Función para pasar a la siguiente
   function siguientePregunta() {
     preguntas[indexActual].classList.remove('activa');
     btnSiguiente.style.display = 'none';
@@ -1001,9 +994,8 @@
 
     if (indexActual < preguntas.length) {
       preguntas[indexActual].classList.add('activa');
-      actualizarProgreso(); // Actualiza el número de arriba
+      actualizarProgreso();
     } else {
-      // Fin del test: Ocultar todo y mostrar nota
       progresoDiv.style.display = 'none';
       contenedorTest.style.display = 'none';
       divResultados.style.display = 'block';
