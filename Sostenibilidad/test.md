@@ -606,6 +606,86 @@
     <button class="opcion" onclick="verificar(this, false)">d) Califican inversiones y empresas en función del grado de cumplimiento de los aspectos ASG.</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>73. Indica cuál de los siguientes estándares de información no financiera es más antiguo:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Global Reporting Initiative (GRI).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Directiva 2022/2464 de Informes de Sostenibilidad Empresarial (CSRD).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Normas Europeas de Información sobre Sostenibilidad (NEIS).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Ley de Información no Financiera y Diversidad.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>74. En relación con el estándar GRI, señala la afirmación falsa:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Su primera versión es del año 2000.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Fue creado por la Unión Europea.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La mayoría de las grandes empresas lo utiliza.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Es en realidad una familia de estándares.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>75. El plan de sostenibilidad:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Es un documento obligatorio para las empresas.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Es un documento de planificación a corto plazo (un año o menos).</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Sirve para guiar las acciones de la organización en materia de sostenibilidad.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Da cuenta de las actuaciones realizadas el año anterior en materia de sostenibilidad.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>76. El plan de sostenibilidad es (señala la respuesta más completa):</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Una herramienta de planificación.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Una herramienta de comunicación.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Una herramienta de planificación y comunicación.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Una herramienta de planificación y evaluación.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>77. El primer apartado de un plan de sostenibilidad debe ser:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La identificación de impactos y dependencias.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La identificación de los ODS clave.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El diseño de objetivos y acciones concretas.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) El análisis del contexto de la organización.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>78. Para una empresa agrícola, la mayor frecuencia de sequías es un asunto:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Con materialidad de impacto.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Con materialidad financiera.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Con doble materialidad.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Sin materialidad para la empresa.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>79. Para que un asunto tenga prioridad de primer nivel en la matriz de materialidad y relevancia, debe tener:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Doble materialidad.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Elevada relevancia para los grupos de interés internos y externos.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Elevada relevancia y elevada factibilidad.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Elevada relevancia para la dirección de la organización, solamente.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>80. A diferencia del estado de sostenibilidad, el informe o memoria de sostenibilidad:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Informa sobre el desempeño de la organización en materia de sostenibilidad.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Se refiere a un periodo de tiempo definido (un año).</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Tiene gran utilidad como herramienta de comunicación de las políticas de sostenibilidad.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Habla solamente de los logros de la organización en materia de sostenibilidad.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>81. En el procedimiento administrativo de evaluación de impacto ambiental no interviene:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La entidad que promueve una obra, proyecto o acción de cierta importancia.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La autoridad medioambiental.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El documento llamado estudio de impacto ambiental.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) El documento llamado informe medioambiental.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>82. La declaración de impacto ambiental es redactada por:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La empresa promotora del proyecto.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) La autoridad medioambiental.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La empresa que construye efectivamente el proyecto.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La oficina de prensa de la empresa.</button>
+  </div>
+
 <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
