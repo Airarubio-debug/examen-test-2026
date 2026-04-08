@@ -686,6 +686,227 @@
     <button class="opcion" onclick="verificar(this, false)">d) La oficina de prensa de la empresa.</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>83. ¿Cuál de las siguientes acciones contribuye directamente a la descarbonización?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Reducir la eficiencia energética para disminuir costes</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Reemplazar sistemas de energía fósil por fuentes renovables como solar o eólica</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Incrementar el uso de carbón en procesos industriales</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Utilizar únicamente materias primas vírgenes</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>84. ¿Qué describe mejor el concepto de ecosistema?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Un conjunto de especies que compiten entre sí por recursos limitados</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Un lugar donde solo existen plantas y microorganismos</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Un espacio geográfico sin influencia de factores abióticos</button>
+    <button class="opcion" onclick="verificar(this, true)">d) La interacción entre organismos vivos y los factores físicos del entorno en un área determinada</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>85. ¿Qué impacto puede tener el cambio climático en los costes de las empresas?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Incrementa porque suben los impuestos</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Reducción de costes energéticos</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Ninguna es correcta</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Incremento por adaptación y seguros</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>86. ¿Cómo puede afectar la desmaterialización a la sostenibilidad de una empresa?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Aumentando obligatoriamente la huella de carbono</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Incrementando el uso de recursos físicos y logísticos</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Reduciendo el consumo de materiales y la generación de residuos</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Dependiendo exclusivamente de proveedores externos de papel</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>87. ¿Qué práctica se asocia directamente con la desmaterialización dentro de una empresa o administración pública?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Almacenar todas las facturas en archivadores tradicionales</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Requerir que todos los informes se entreguen impresos y firmados en papel</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Migrar servicios y comunicaciones a plataformas digitales para minimizar recursos físicos</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Aumentar el número de envíos postales para mejorar la comunicación interna</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>88. ¿Qué objetivo persigue la descarbonización en el contexto corporativo y público?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Mantener las emisiones en niveles actuales para evitar costes adicionales</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Establecer un sistema de compensaciones que permita seguir emitiendo sin cambios operativos</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Lograr un aumento gradual del uso de carbón y gas para asegurar el suministro</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Reducir o eliminar las emisiones de gases de efecto invernadero mediante cambios estructurales, tecnológicos y de consumo energético</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>89. ¿Cuál es el principal instrumento adoptado por la ONU para impulsar el desarrollo sostenible a escala global?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El Protocolo de Montreal</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El Acuerdo de Basilea</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La Declaración de Estocolmo</button>
+    <button class="opcion" onclick="verificar(this, true)">d) La Agenda 2030 y sus Objetivos de Desarrollo Sostenible (ODS)</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>90. ¿Qué papel desempeña la ONU en materia de sostenibilidad?</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Coordinar esfuerzos internacionales, establecer marcos globales y promover metas comunes para el desarrollo sostenible</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Sustituir a los gobiernos nacionales en la toma de decisiones ambientales</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Elaborar leyes obligatorias para todos los países sin excepción</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Controlar directamente los recursos naturales de los países miembros</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>91. ¿Cuál de las siguientes áreas forma parte de las iniciativas clave del Pacto Verde Europeo?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Reducir la inversión en innovación tecnológica ambiental</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Transformar sectores como energía, transporte, agricultura e industria hacia modelos más sostenibles</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Incentivar el uso de carbón para reducir costes energéticos</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Eliminar gradualmente las energías renovables del mercado europeo</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>92. No es una dimensión como tal de los ODS.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La ecológica</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La social</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La económica</button>
+    <button class="opcion" onclick="verificar(this, true)">d) La cultural</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>93. ¿Cuál es el propósito general de los 17 ODS establecidos por la ONU?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Promover únicamente el crecimiento económico mundial</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Reemplazar las leyes nacionales de desarrollo</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Establecer metas solo para países en desarrollo</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Crear un marco global para abordar desafíos sociales, ambientales y económicos antes de 2030</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>94. ¿Qué enfoque adoptan los ODS para enfrentar los desafíos globales?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Se centran exclusivamente en la cooperación internacional</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Plantean un enfoque integrado que combina lo social, lo ambiental y lo económico</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Abordan un único ámbito (económico) para simplificar su implementación</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Proponen acciones compartimentadas sin conexión entre sí</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>95. ¿Cuántos ODS hay?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) 30</button>
+    <button class="opcion" onclick="verificar(this, true)">b) 17</button>
+    <button class="opcion" onclick="verificar(this, false)">c) 50</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Depende del país</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>96. ¿Por qué son esenciales los indicadores de desempeño para implementar los ODS?</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Porque ayudan a comparar avances, identificar brechas y orientar decisiones de políticas públicas y estrategias privadas</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Porque hacen que los ODS sean obligatorios para todos los países al convertir sus metas en exigencias de carácter normativo</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Porque eliminan la necesidad de establecer metas concretas</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Porque permiten aplicar los ODS sin necesidad de recopilar datos ni realizar análisis continuos</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>97. La integración de aspectos ASG en la empresa suele implicar para ella:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Una mejora de la reputación corporativa y de la percepción de la marca</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Una mayor dificultad para atraer y retener talento</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Un acceso más limitado a financiación sostenible y a inversores responsables</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Una reducción del rendimiento y competitividad a largo plazo</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>98. La huella ecológica debe ser:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Un factor irrelevante que no tiene impacto en el desarrollo sostenible</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Superior a la biocapacidad disponible, incluso si eso implica sobreexplotación de recursos</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Inferior a la biocapacidad, garantizando que los ecosistemas puedan regenerar los recursos utilizados</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Exactamente igual a la biocapacidad del planeta o territorio, sin margen de variación</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>99. Una marca de moda implementa un sistema blockchain para rastrear materiales, fábricas y condiciones laborales en toda su cadena de valor. ¿Qué aspecto ASG se ve más afectado?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Financiero</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Ambiental</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Gobernanza</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Social</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>100. Una empresa de transporte anuncia que sustituirá su flota diésel por vehículos eléctricos y utilizará energía 100% renovable en sus centros. ¿Qué aspecto ASG mejora principalmente?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Financiero</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Gobernanza</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Ambiental</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Social</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>101. Una empresa de transporte anuncia que implementará un programa integral para mejorar la seguridad y el bienestar de sus conductores, incluyendo formación especializada, reducción de horas de trabajo excesivas y apoyo psicológico. ¿Qué aspecto ASG mejora principalmente?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Gobernanza</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Ambiental</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Social</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Financiero</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>102. Los criterios ASG sirven para:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Exigir automáticamente una auditoría interna anual, independientemente del desempeño real de la empresa</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Reemplazar por completo las funciones de la dirección y la alta gerencia</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Incrementar los beneficios de la empresa como único objetivo, sin considerar otros impactos</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Evaluar de manera integral las prácticas empresariales y orientar decisiones sostenibles en materia ambiental, social y de gobernanza</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>103. ¿Qué riesgo puede asumir una empresa que ignora los criterios ASG en su gestión?</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Enfrentar sanciones, pérdida de confianza y menor acceso a financiación sostenible</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Mejorar automáticamente su competitividad internacional</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Aumentar su capacidad de anticipar riesgos regulatorios</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Incrementar su resiliencia frente a cambios sociales y ambientales</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>104. Señala la afirmación falsa acerca de los grupos de interés:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Las decisiones que toma la empresa pueden afectarles directa o indirectamente</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Son colectivos humanos con algún grado de relación o impacto con la organización</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Siempre son externos a la empresa, sin formar parte de ella en ningún caso</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Son capaces de influir en las decisiones y estrategias de la empresa</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>105. ¿Cuál es una ventaja clave de la economía circular respecto al modelo lineal tradicional?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Genera más residuos para mantener la actividad económica</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Obliga a producir a mayor velocidad sin controles ambientales</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Incrementa la dependencia de combustibles fósiles</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Reduce la necesidad de materias primas vírgenes al fomentar la reutilización y el reciclaje</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>106. ¿Cuál es un beneficio ambiental directo de adoptar una economía circular?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Un incremento de la contaminación del agua y del suelo como consecuencia de procesos productivos lineales.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) La disminución de la generación de residuos al mantener los materiales en uso durante más tiempo, aprovechando estrategias como la reutilización, reparación, refabricación y reciclaje eficiente.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Una mayor producción de residuos y vertidos debido a procesos que continúan desechando materiales después de un solo uso.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La extracción continua e intensiva de recursos naturales sin límites, lo que incrementa la degradación ambiental.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>107. La economía circular busca:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Limitar la colaboración con proveedores</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Mantener el valor de los recursos el mayor tiempo posible</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Aumentar el uso de productos desechables</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Acortar el ciclo de vida del producto</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>108. Un principio del ecodiseño es:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Fomentar una producción con mayor cantidad de emisiones</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Facilitar la reparabilidad</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Aumentar el consumo energético</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Aumentar la cantidad de residuos para así poder reciclarlos</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>109. Un producto puede considerarse mal diseñado desde la perspectiva del ecodiseño cuando:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Tiene un envase compostable</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Reduce el consumo energético</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Emplea materiales difíciles de separar o no reciclables</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Presenta elevada durabilidad y reparabilidad</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>110. ¿Cuál es el objetivo principal de la evaluación del desempeño ambiental?</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Analizar de forma sistemática el impacto ambiental de la organización para identificar áreas de mejora continua</button>
+    <button class="opcion" onclick
+
 <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
