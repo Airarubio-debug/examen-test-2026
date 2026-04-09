@@ -1088,6 +1088,286 @@
     <button class="opcion" onclick="verificar(this, false)">d) Se pueden establecer protecciones que proporcionen una seguridad total de los sistemas y de la información que contienen.</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>135. De las siguientes opciones, indica cuál de ellas es una función del cortafuegos.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Denegar conexiones.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Permitir conexiones.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Filtrar el tráfico (lo cual engloba permitir o denegar según las reglas).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Impedir la entrada de virus (eso es un antivirus o un UTM).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>136. De las siguientes afirmaciones, ¿cuál corresponde a la seguridad perimetral?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Es una medida de software.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Es la proporcionada solo por dispositivos de hardware.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Se establece mediante software y/o hardware.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Es la establecida por nuestro ISP.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>137. De las siguientes afirmaciones, indica cuál se corresponde con una función del router frontera.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Separa la DMZ de la LAN.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Es el dispositivo que separa la red corporativa del exterior (Internet).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Está dentro de la DMZ.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Está dentro de la LAN.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>138. ¿Cuál es la afirmación correcta respecto al cortafuegos?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Está siempre fuera de la LAN.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Está siempre dentro de la LAN.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Está en la DMZ.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Puede ser un router (aplicando ACLs o funciones de firewall integradas).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>139. Señala la opción correcta respecto a la ubicación de las zonas DMZ.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Están dentro de la LAN.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Están dentro del perímetro de red (entre la red interna y la red externa).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Están entre el perímetro de red y el router frontera.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Están fuera del perímetro de red.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>140. El filtrado de paquetes está sujeto a las reglas básicas (cadenas predeterminadas en Netfilter/iptables filter):</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) INPUT, OUTPUT.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) INPUT, OUTPUT, FORWARD.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) INPUT, EXIT, IPTABLES.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) IPTABLES, INPUT, OUTPUT, FORWARD.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>141. Los paquetes que atraviesan un cortafuegos pueden ser filtrados:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Por los dominios de destino.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Por los datos de la cabecera del paquete (IP origen/destino, puertos, flags...).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Solamente por las direcciones IP.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Solamente por las direcciones IPv4 destino.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>142. Cuando un paquete no llega a su destino y se informa al emisor de las causas (vía mensaje ICMP port/host unreachable):</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El paquete se ha aceptado.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El paquete se ha denegado.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) El paquete se ha rechazado (REJECT informa, DROP simplemente bloquea sin avisar).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El paquete se ha bloqueado.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>143. Un cortafuegos se puede clasificar según su área de influencia en:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) De filtrado de paquetes.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Libre o propietario.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Personal o SOHO (frente a los corporativos/perimetrales).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) De nivel aplicación o corporativo.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>144. La regla que se añade a IPTABLES para no permitir la salida por la interfaz externa eth1 de paquetes "spoofeados" con origen en la red privada 192.168.1.0 es:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) iptables -D INPUT -i eth1 -s 192.168.1.0/24 -j DROP.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) iptables -A INPUT -i eth1 -s 192.168.1.0/24 -j DROP (Impide que entre tráfico por la interfaz externa aparentando venir de nuestra red privada).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) iptables -D INPUT -i eth1 -d 192.168.1.0/24 -j DROP.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) iptables -A INPUT -i eth1 -d 192.168.1.0/24 -j DROP.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>145. De las siguientes afirmaciones, indica cuál es una de las principales ventajas de hping3:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Que es software libre.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Que puede especificar el número de puerto o el tipo de protocolo (TCP/UDP, a diferencia del ping tradicional que es solo ICMP).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Que se puede utilizar desde la terminal.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Que es más sencillo de manejar que ping.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>146. En referencia a los mensajes recogidos por el log de IPtables, indica la opción correcta:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Los emite el kernel de GNU/Linux.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Solo se graban si perjudican al sistema.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Siempre se graban en un archivo llamado iptables.txt.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Siempre se graban en un archivo llamado iptables.log.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>147. Indica la función de la siguiente regla IPtables: iptables -t nat -A POSTROUTING -o eth0 -s 192.168.0.0/24 -j SNAT --to-source 172.28.0.254</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Traduce la dirección de origen a 172.28.0.254.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Traduce la dirección de destino a 172.28.0.254.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) No puede dar salida a toda la red 192.168.0.0/24.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) No permite el uso de MASQUERADE.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>148. ¿Cuáles de las siguientes son las cadenas principales de la tabla nat?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) NAT, INPUT y OUTPUT.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) MANGLE, PREROUTING y POSTROUTING.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) INPUT, OUTPUT y FORWARD.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) PREROUTING y POSTROUTING (junto con OUTPUT y a veces INPUT).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>149. Indica cuál es la afirmación correcta:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) SNAT es un objetivo (target) de la tabla nat.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) DNAT es una cadena de la tabla nat.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) SNAT da acceso a clientes externos a los servicios internos.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) DNAT se utiliza para los clientes internos hacia servicios externos.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>150. En relación con el protocolo L2TP, indica cuál es la respuesta correcta:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) De nivel 3.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) De nivel 2 (Layer 2 Tunneling Protocol).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Más antiguo que PPTP.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) De nivel de red.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>151. ¿Cuál de los siguientes no es un modo de conexión de una VPN?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Acceso remoto.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Interconexión de redes (Site-to-Site).</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Nivel de aplicación.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Punto a punto.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>152. Selecciona la respuesta correcta desde el punto de vista de un usuario inexperto en VPNs:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Las VPN con IPsec son más sencillas de utilizar.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Las VPN con SSL son más sencillas de utilizar (solo requieren un navegador web o cliente simple).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) SSL implica instalar un software cliente que dificulta la administración.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) IPsec posibilita que un usuario se conecte desde cualquier equipo sin importar el software instalado.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>153. Indica la respuesta correcta respecto a una red privada virtual VPN:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Encapsula la información.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Se da en las LAN.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Atraviesa los routers sin dificultad.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Utiliza el protocolo PTP.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>154. Para que se pueda establecer una comunicación segura y autenticada con SSH...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El receptor debe tener la clave privada del emisor.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) El receptor (servidor) debe conocer la clave pública del emisor (cliente) para su autenticación.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El emisor debe conocer la clave privada del receptor.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El receptor debe conocer la clave privada y la pública del emisor.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>155. Un servidor RADIUS...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Es un cliente de autenticación.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Es un servidor de autenticación para acceso remoto (AAA).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Es un servicio de Ubuntu.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Es un servidor Windows.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>156. En relación con el acceso remoto, indica cuál de las siguientes afirmaciones es correcta:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Utiliza diferentes aplicaciones en el servidor.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El acceso remoto permite iniciar a distancia diversas sesiones en diferentes equipos.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Al ejecutar programas utiliza los recursos del servidor.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Todas las respuestas son correctas.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>157. ¿Cuál es la función del certificado digital del servidor al conectar remotamente?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Permite que los datos se envíen cifrados.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Permite la autenticación del usuario que quiera acceder.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Permite que el usuario, al acceder de forma remota, reciba la firma del servidor y confíe en su identidad para futuras conexiones.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) No hay ninguna respuesta correcta.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>158. De las siguientes afirmaciones, indica cuál de ellas se identifica con el protocolo CHAP:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Es un protocolo inseguro (Eso es PAP, que envía en texto claro).</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Verifica periódicamente la identidad del cliente remoto (Challenge Handshake Authentication Protocol).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Es un protocolo de tipo AAA.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Es un protocolo de autenticación extensible (Ese es EAP).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>159. De las siguientes afirmaciones, indica cuál de ellas NO se identifica con el protocolo RADIUS:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Utiliza una contraseña cifrada con un algoritmo de cifrado bidireccional (Falso, usa hashes unidireccionales como MD5).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Es un protocolo de tipo AAA (Autenticación, Autorización, Contabilización).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Es capaz de manejar sesiones.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Se utiliza en combinación con protocolos como PAP o CHAP.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>160. Selecciona la frase correcta:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La seguridad perimetral la establecen los ISP.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La seguridad perimetral determina la política de seguridad.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La seguridad perimetral no depende de la política de seguridad.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) La política de seguridad corporativa determina la seguridad perimetral que se va a implementar.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>161. Crear una red privada sobre una red pública es:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Solo se puede hacer de manera inalámbrica.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Una VLAN.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Una VPN (Virtual Private Network).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) No se puede realizar.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>162. En relación con la instalación de un servidor web público, indica cuál de las siguientes ubicaciones es la correcta:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) En el router frontera.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) En la zona desmilitarizada (DMZ) del perímetro de red.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Fuera del perímetro de red.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) En la LAN.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>163. ¿Cuál de las siguientes afirmaciones define una subred protegida débil?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Sitúa a la DMZ entre dos cortafuegos (Esta es la arquitectura de subred protegida robusta).</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Sitúa a la DMZ detrás de un cortafuegos (pero sin otro que la aísle de la red interna).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) No tiene equipo bastión.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Tiene un equipo bastión sin proteger.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>164. En relación con los IDS, indica cuál de las siguientes afirmaciones es la correcta:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Solamente se emplean en la LAN.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Se emplean dentro de la LAN de forma exclusiva.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Se emplean habitualmente en la defensa perimetral (vigilando el tráfico que entra y sale de la red).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Solamente se emplean en la DMZ.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>165. En relación con una VPN, indica cuál de las siguientes afirmaciones es correcta:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Hace lo mismo que una VLAN.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Crea dominios dentro de una LAN de manera virtual.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Cifra y firma la información transmitida (añadiendo confidencialidad e integridad al túnel).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Es la manera de acceder al escritorio remoto.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>166. En relación con el protocolo L2TP, indica cuál de las siguientes afirmaciones es la correcta:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Crea conexiones punto a punto.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Crea conexiones multipunto como MPLS.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Crea conexiones multipunto.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Crea conexiones como VPLS.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>167. ¿Cuál de los siguientes es el mejor protocolo a nivel 3 (Capa de Red) para el acceso remoto en VPNs?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) SSH porque encripta la información.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) SSL.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) L2TP.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) IPSec.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>168. En relación con SSHFS, ¿cuál de las siguientes afirmaciones se ajusta a su definición?</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Es un sistema de archivos proporcionado por SSH (monta sistemas de archivos remotos a través de una conexión SSH/SFTP).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Es el protocolo seguro de SSH.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Es lo mismo que HTTPS.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Es un protocolo de nivel 2.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>169. Indica cómo se puede acceder vía SSH:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) A un servidor SSH en el que tengamos autorización (con credenciales válidas o clave intercambiada).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) A cualquier equipo GNU/Linux con la cuenta root (Por defecto suele estar deshabilitado en SSH).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) A cualquier equipo utilizando PuTTY.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) A cualquier equipo si se tiene instalado un cliente SSH.</button>
+  </div>
+
 </div> <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
