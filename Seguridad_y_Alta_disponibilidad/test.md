@@ -808,6 +808,286 @@
     <button class="opcion" onclick="verificar(this, false)">d) En un ataque activo el intruso monitoriza (Monitorizar es ataque pasivo).</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>100. Cuando un adaptador de red opera en modo «promiscuo»:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Puede ser utilizado por varios usuarios locales de una máquina cliente.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Captura paquetes de red cuya dirección MAC de destino es la suya propia.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Sirve para capturar todo el tráfico que atraviesa un router.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Ninguna de las anteriores es correcta (El modo promiscuo captura TODOS los paquetes que circulan por su segmento de red, no solo los dirigidos a su MAC).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>101. Monitorizar la red:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Es un proceso continuo de recolección de datos.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Soluciona cuellos de botella.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) No permite la utilización de filtros.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Consiste en distribuir el ancho de banda de la red.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>102. De las siguientes, indica cuál de ellas es una aplicación de monitorización de redes:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Nagios.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Gparted.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Advance IP scanner.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Netstat.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>103. De las siguientes opciones, indica cuál es la correcta para que TCPdump no ponga la tarjeta de red en modo promiscuo:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Opción –n.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Opción –p.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Opción –x.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Opción –a.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>104. Indica si existe alguna relación entre Wireshark y TCPdump:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) No existe ninguna relación.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Sí existe pero son incompatibles.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Sí existe y se pueden intercambiar las salidas generadas (ambos usan archivos .pcap).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Son herramientas con objetivos diferenciados.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>105. Los servicios de seguridad de las redes sirven para:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Defender a los internautas del funcionamiento inadecuado de los computadores con los que se conectan.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Posibilitar las comunicaciones de los usuarios protegiendo a las redes frente a posibles fallos del software.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Asegurarse de que los atacantes no podrán intentar hacer un uso indebido de las redes.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Proteger las comunicaciones de los usuarios de las redes frente a los atacantes que pretendan hacer un uso indebido de estas.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>106. Ante el riesgo de recibir determinados ataques dentro de una red telemática:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Se pueden establecer protecciones que proporcionen una seguridad total de los sistemas y de la información que contienen.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Se pueden establecer protecciones que proporcionen una seguridad total de la información aunque no de los sistemas.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) No se pueden establecer protecciones que proporcionen una seguridad total, pero sí establecer medidas que protejan de forma satisfactoria frente a los riesgos existentes.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) No se pueden establecer protecciones que proporcionen una seguridad total, pero se pueden establecer servicios totalmente seguros.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>107. Los mecanismos criptográficos:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Sirven para construir protocolos de seguridad que sirvan para proporcionar servicios de seguridad.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) No tienen nada que ver con los mecanismos de seguridad.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Constituyen la mayoría de los servicios de seguridad y se basan en técnicas criptográficas que no influyen en la seguridad.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Sirven para construir protocolos de seguridad y no tienen nada que ver con los mecanismos de seguridad.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>108. Señala la opción correcta respecto a la seguridad en redes:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Es un conjunto de técnicas que tratan de minimizar la vulnerabilidad de los sistemas.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Trata de conseguir que el coste del acceso indebido a un recurso sea inferior a su valor.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Está diseñada para conseguir que sean prestados a los usuarios determinados servicios generales.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Ninguna de las opciones anteriores es correcta.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>109. Señala la opción correcta respecto a los mecanismos criptográficos:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) La criptografía es la base de apoyo de los servicios de seguridad.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Intercambian información entre los sistemas que están conectados.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Protegen las comunicaciones de los usuarios frente a los distintos ataques.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Todas las opciones son correctas.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>110. ¿Cuál de los siguientes es un modo de funcionamiento de WPA?</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Con clave inicial compartida (WPA-PSK).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Con clave inicial no compartida.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Sin autenticación.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Con vectores de inicialización de 24 bits.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>111. ¿Cuál de las siguientes NO es una ventaja de la utilización de portales cautivos?</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Que la seguridad está basada en identidades (Falso, realmente autorizan direcciones MAC/IP tras el login, lo cual es spoofable).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Que pueden utilizar autenticación centralizada.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Que permite aplicar políticas por usuario.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Que utilizan el navegador (evitando instalar software cliente).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>112. Señala la afirmación correcta respecto a WPA2:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Utiliza la norma de seguridad IEEE 802.2.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) No siempre utiliza autenticación con clave compartida (PSK) (Puede usar 802.1X/EAP en modo Enterprise).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Utiliza vectores de inicialización de 36 bits.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Utiliza claves estáticas (TKIP).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>113. Señala la afirmación correcta respecto a a un servidor RADIUS:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) No es necesario que esté en la red local del dispositivo que lo utiliza.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Es imprescindible WPA para poder utilizarlo.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Es imprescindible WEP para poder utilizarlo.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Es el responsable de la existencia de los portales cautivos.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>114. De las siguientes opciones, indica cuál no es una buena solución de seguridad para redes inalámbricas:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Filtrado de direcciones MAC (es ineficaz, las MAC se clonan fácilmente).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Creación de VPN.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) WPA-PSK.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Estándar 802.1X y servidores RADIUS.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>115. Indica cuál de las siguientes afirmaciones es correcta respecto al ARP Spoofing.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Provoca que el switch actúe como un HUB.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Representa un problema de autenticación.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Es una técnica que permite modificar el tráfico (Ataque Man-in-the-Middle).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Permite activar filtros en el router.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>116. Indica cuál de las siguientes afirmaciones es incorrecta respecto al servicio DNS.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Es muy sensible a los ataques de denegación de servicio.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El servidor DNS responde con la dirección IP del dominio solicitado.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Es un servicio muy sensible a los ataques de suplantación (Spoofing/Poisoning).</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Requiere la autenticación del usuario.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>117. Indica cuál de las siguientes afirmaciones es correcta en relación con el servicio Telnet.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Es un servicio completamente seguro.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Requiere la autenticación del usuario que debe existir en el equipo remoto.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Requiere la autenticación del usuario que debe existir en el equipo local.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Las credenciales se envían encriptadas (Falso, van en texto claro).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>118. Indica cuál de las siguientes afirmaciones es correcta en relación con el servicio de correo electrónico.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) El servidor de correo (MTA) ejecuta el protocolo SMTP.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El servidor de correo ejecuta el protocolo SNMP.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El cliente de correo ejecuta el agente MTA (Es MUA).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El comando VRFY se ejecuta desde el cliente de correo.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>119. Indica cuál de las siguientes afirmaciones es falsa respecto al protocolo DHCP.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Es un protocolo completamente seguro.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Trabaja sobre el protocolo IP y UDP.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Debe controlar que los equipos clientes no autorizados accedan a la red (con técnicas como DHCP Snooping).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Asigna parámetros de red.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>120. ¿A cuál de los siguientes vegetales se podría asimilar la defensa en profundidad?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Repollo.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Cebolla (por las múltiples capas de seguridad).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Lechuga.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Alcachofa.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>121. Indica cuál de las siguientes afirmaciones NO es una buena práctica de seguridad en servidores.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Establecer políticas de contraseña.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Tener los sistemas actualizados.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Deshabilitar o desinstalar servicios no usados.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Usar cuentas con privilegios (Se debe usar el principio del mínimo privilegio para tareas cotidianas).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>122. De las siguientes afirmaciones, indica cuál NO se identifica con una capa puramente técnica de la defensa en profundidad.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Seguridad física y del entorno.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Defensa de red.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Defensa de datos.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Defensa de usuarios (Los usuarios son el eslabón, la capa suele denominarse "Políticas, procedimientos y concienciación").</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>123. De las siguientes afirmaciones, indica cuál de ellas se identifica con el concepto de hardening (bastionado).</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Proceso de reducción de vulnerabilidades en el sistema (minimizando la superficie de ataque).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Proceso de reducción de la seguridad en el sistema.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Proceso de reducción de la funcionalidad del sistema.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Proceso de reducción de los recursos del sistema.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>124. En relación a la herramienta Fwsnort, indica cuál de las siguientes afirmaciones es correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Es un cortafuegos.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Implementa la técnica port knocking.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Se combina con el cortafuegos (Traduce reglas de Snort a reglas de iptables).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Implementa la técnica de SPA.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>125. Indica cuál de los siguientes protocolos no transmite los datos en texto plano:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) SMTP.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) FTP.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Telnet.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) SSH.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>126. Indica cuál de las siguientes combinaciones para la autenticación Wi-Fi es la más segura:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) WPA + AES.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) WPA2 + AES.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) WPA2 + TKIP.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) WPA + TKIP.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>127. Indica cuál de los siguientes métodos se utiliza para asegurar la integridad en WPA2:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) TKIP.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) AES.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) CCMP.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) RC4.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>128. La defensa en profundidad:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Intensifica la seguridad en la DMZ del perímetro de red.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Solamente protege el router frontera con medidas de seguridad más fuertes.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Establece medidas de seguridad (multicapa) para reducir la probabilidad de éxito de un ataque.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Protege el interior de la LAN por ser el objetivo de un atacante.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>129. Si se falsifica el origen de los mensajes de correo electrónico, se ha producido un:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) DHCP Spoofing.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) SMTP Spoofing (Email Spoofing).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) IP Spoofing.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) DNS Spoofing.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>130. De las siguientes afirmaciones, indica cuál se corresponde con el concepto de red corporativa:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Es una red local.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Utiliza siempre Internet.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Puede utilizar varias tecnologías de comunicación (LAN, WAN, VPN, Intranet).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) No necesita nunca conexión a Internet.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>131. En relación con las políticas de seguridad, indica la respuesta correcta:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Debe ser conocido por todos los usuarios del sistema.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Lo debe confeccionar solamente el administrador del sistema.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Es lo mismo que un plan de contingencia.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Son normas generales que van más allá de la organización en la que se va a utilizar.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>132. El ARP spoofing es un ataque de seguridad en:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La capa de transporte.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La capa de aplicación.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La capa de red.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) La capa de enlace de datos (Capa 2 del modelo OSI).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>133. Para proteger las redes contra ataques de suplantación de la identidad de los usuarios deben usarse:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Servicios de autenticación.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Servicios de integridad de los datos.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Servicios de confidencialidad.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Servicios de control de acceso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>134. Ante el riesgo de recibir determinados ataques dentro de una red telemática (Repetida intencionalmente para afianzar el concepto):</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Se pueden establecer protecciones que proporcionen una seguridad total de la información, aunque no de los sistemas.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) No se pueden establecer protecciones que proporcionen una seguridad total, pero se pueden establecer servicios totalmente seguros.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) No se pueden establecer protecciones que proporcionen una seguridad total, pero sí establecer medidas que protejan de forma suficientemente satisfactoria frente a los riesgos existentes.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Se pueden establecer protecciones que proporcionen una seguridad total de los sistemas y de la información que contienen.</button>
+  </div>
+
 </div> <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
