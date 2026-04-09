@@ -208,6 +208,326 @@
     <button class="opcion" onclick="verificar(this, true)">d) Uso particular (no es una clasificación empresarial típica).</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>25. La estenografía permite:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Firmar una imagen.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Cifrar una imagen.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Cifrar la imagen por píxel.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Transmitir información por canal subliminal (ocultando información dentro de otro archivo).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>26. De las siguientes afirmaciones indicar cuál de ellas define la propiedad ‘difusión’ en el cifrado de bloque:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Un pequeño cambio en el texto en claro debería producir un cambio del 50% del texto cifrado resultante.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Un pequeño cambio en la clave debería producir un cambio del 50% del texto cifrado resultante.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Utiliza la técnica ‘divide y vencerás’.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Cada bit del texto cifrado dependerá de cada bit de la clave.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>27. La firma digital y el certificado digital se caracterizan porque:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) La firma verifica la identidad del firmante.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El certificado digital tiene funciones similares a las de la firma autógrafa.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Son iguales.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El certificado digital contiene alguna firma digital (la de la CA que lo emite, pero la 'a' es su función principal de autenticación).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>28. El certificado digital:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Contiene la clave privada del usuario.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Es lo mismo que la firma electrónica del usuario.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Necesita del uso de la clave privada del usuario.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Es, sin más, un medio de identificación del usuario en la red.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>29. De las siguientes afirmaciones selecciona la válida:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El criptoanálisis compromete la seguridad de un criptosistema.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) IDEA es un algoritmo de criptografía asimétrica muy conocido.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El cifrado en bloque se hace forma independiente.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) En general, en un criptosistema cuanto más grande es la clave más segura será.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>30. En términos de identidad digital, indica la opción falsa:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Existe normativa en España.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Incluye certificado digital y firma electrónica.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) No presenta problemas de seguridad física y lógica (Falso, sí que los presenta, como el robo de tokens o contraseñas).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Garantiza la confidencialidad.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>31. Selecciona la opción válida:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El cifrado en bloque se hace forma independiente.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) En cada mensaje la clave simétrica utilizada es diferente.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) IDEA es un algoritmo de criptografía asimétrica muy conocido.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) En general, en un criptosistema cuanto más grande es la clave más segura será.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>32. En criptografía, la confusión consiste en:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Ocultar la relación entre el texto cifrado y la clave secreta.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Eliminar cualquier relación estadística entre el mensaje original y su texto cifrado.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Enviar al atacante falsos textos para confundirlo.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Mezclar las letras entre sí para confundirlas.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>33. La firma manuscrita de la persona se considera que pertenece a la llamada:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Biometría fisiológica.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Biometría posicional.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Biometría conductual.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Biometría analítica.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>34. La función hash:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Cifran todo el mensaje.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Su longitud depende del tamaño del mensaje.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) No se utiliza en la firma digital.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Genera un resumen o huella digital.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>35. En una ACL los permisos por defecto sobre un directorio:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) No se pueden establecer.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Se establecen con la opción -r.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Afectan a los archivos de un directorio.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Afectan a los archivos que se creen en el directorio.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>36. Las ACL se pueden utilizar:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Sobre cualquier sistema de archivos.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Siempre, si el usuario sabe configurarlas.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Requieren soporte en el núcleo del sistema operativo.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Sobre cualquier sistema de archivos montado.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>37. En relación con los objetivos de la seguridad lógica, indicar cuál de las siguientes afirmaciones es falsa.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Restringen el acceso a los programas y archivos.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La información recibida es la misma que ha sido transmitida.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Existen sistemas alternativos secundarios de almacenamiento (Esto es seguridad física/disponibilidad).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La información recibida proviene de un solo emisor.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>38. En relación con la ACL extendida, indicar cuál de las siguientes afirmaciones es cierta.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Contiene una entrada mask.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) No contiene una entrada mask.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Los permisos se heredan desde el directorio padre.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Ninguna de las anteriores es cierta.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>39. En relación con la ACL por defecto, indicar cuál de las siguientes afirmaciones es cierta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Contiene una entrada mask.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) No contiene una entrada mask.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Los permisos se heredan desde el directorio padre.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Ninguna de las anteriores es cierta.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>40. Ocultar los caracteres cuando se introduce una contraseña es una medida:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Innecesaria.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) De seguridad pasiva.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) De seguridad activa.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) De seguridad física.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>41. En un ataque por 'fuerza bruta':</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) La longitud de la clave sí importa.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La longitud de la clave no importa.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Conseguir la contraseña en general es rápido.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El algoritmo de cifrado es indiferente.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>42. El ataque por diccionario:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Es más eficiente que un ataque por fuerza bruta.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Es menos eficiente que un ataque por fuerza bruta.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Depende de la robustez de la contraseña.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Ninguna de las anteriores es correcta.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>43. En relación con la autenticación con varios factores, indica cuál de las siguientes afirmaciones es verdadera:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Es lo mismo que la autenticación Single Sign-On.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Mejora el control de acceso.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Requiere contraseñas de más de 10 caracteres.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) No existe este mecanismo.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>44. Indicar en GNU/Linux Ubuntu cómo o dónde se almacenan las contraseñas de los usuarios del sistema.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) En texto plano.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) En la nube.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Cifradas en el archivo /etc/passwd.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Cifradas en el archivo /etc/shadow.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>45. Si ciframos en forma local un documento con GPG obtenemos un texto cifrado. Si volvemos a cifrar el mismo documento con la misma clave, indicar si:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Los dos criptogramas serán iguales.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Los dos criptogramas serán distintos (porque se usan vectores de inicialización dinámicos).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) No se puede hacer porque no acepta cifrar con la misma clave.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) No se puede cifrar un documento con GPG.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>46. En los criptosistemas asimétricos, la confidencialidad y la autenticidad se logran:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Por separado (se cifra para confidencialidad, se firma para autenticidad).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Rara vez.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Conjuntamente.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Es imposible.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>47. Los criptosistemas se clasifican en:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Simétricos y hash.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) De bloque, de flujo y hash.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Clave privada y de bloque.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Clave privada (simétrica) y asimétrico (clave pública).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>48. Para firmar un mensaje usando criptografía de clave pública:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Se cifra el mensaje usando la clave pública.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Se cifra el mensaje usando una clave secreta cifrada a su vez con la clave pública.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Se cifra un resumen del mensaje (hash) usando la clave privada.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Se cifra la firma manuscrita escaneada y se añade al mensaje.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>49. El algoritmo Diffie-Hellman:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Se utiliza en criptosistemas de clave pública (para el intercambio de claves).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Se utiliza en criptosistemas de clave secreta.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Es un algoritmo de aplicación de “fuerza bruta”.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Es un sistema generador de funciones hash.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>50. De las siguientes afirmaciones, indica cuál de ellas es correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La firma electrónica requiere la firma digital.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) La firma digital es un tipo o implementación de la firma electrónica.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El certificado digital contiene la clave privada del usuario o entidad que representa.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La autoridad de certificación certifica claves privadas.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>51. En relación a la autoridad de certificación (CA):</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Su misión es certificar claves privadas en una conexión segura mediante el navegador.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Guarda una copia de la clave privada del certificado digital emitido.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Firma el certificado digital expedido con su clave pública.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Guarda la clave pública del certificado digital emitido.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>52. El DNI electrónico:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Contiene una firma electrónica.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Es una firma electrónica.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Es un certificado electrónico.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Encripta la información.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>53. Indicar cuál de las siguientes posibilidades es el principal problema que intentan resolver los sistemas de clave pública (Public Key Infrastructure, PKI).</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La mala intención de los usuarios.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La publicidad de la red Internet.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) La suplantación de identidad entre usuarios.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La escasa seguridad en las comunicaciones LAN.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>54. Firmar digitalmente un documento es:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Cifrar el documento (o su resumen hash) con la clave privada.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Cifrar el documento (o parte) con la clave pública.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Cifrar el documento con las claves pública y privada.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Descifrar el documento con las claves pública y privada.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>55. Indicar cuál de los siguientes no es un rasgo biométrico identificativo (fisiológico).</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Reconocimiento de la voz.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Firma manuscrita (es de comportamiento/conductual).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Huella dactilar.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Patrón de venas de la mano.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>56. De los siguientes, cuál crees que sería rechazado por los sistemas biométricos (falso negativo).</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Una persona autorizada no puede entrar en una sala.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Una persona autorizada es confundida con otra persona autorizada.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Un intruso puede entrar en la sala.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Un intruso suplanta a una persona autorizada.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>57. De los siguientes elementos, cuál se puede afirmar que identifica de forma inequívoca a una persona.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El rostro.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La mano.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El pie.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) El iris.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>58. De las siguientes opciones, cuál representa la posibilidad de que un dispositivo biométrico no reconozca a la persona autorizada.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Falso negativo.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso positivo.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Falsa aceptación.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Ninguna de las otras.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>59. Indicar cuál de los siguientes no es un rasgo de comportamiento biométrico.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La forma de andar.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) La geometría del rostro (es fisiológico).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La contraseña.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La voz.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>60. Respecto a SHA-1, indicar cuál de las siguientes afirmaciones es correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Es un algoritmo para obtener un hash o un resumen digital. Se utiliza en relación con la trazabilidad de la evidencia digital.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Es un algoritmo para cifrar una evidencia digital. Se utiliza en relación con la trazabilidad de la evidencia digital.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Es un algoritmo para cifrar una evidencia digital. Se utiliza en relación con la integridad de la evidencia digital.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Es un algoritmo para obtener un hash o un resumen digital. Se utiliza en relación con la integridad de la evidencia digital.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>61. En relación con el proceso de análisis forense, indicar cuál de las siguientes secuencias de fase es correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Evaluar, analizar, adquirir e informar.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Informar, evaluar, adquirir y analizar.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Evaluar, adquirir, analizar e informar.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Adquirir, analizar, evaluar e informar.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>62. La normativa ISO/IEC 27042 se utiliza para:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Analizar e interpretar evidencias.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Evaluar, adquirir y analizar las evidencias.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Evaluar y adquirir las evidencias.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Evaluar, adquirir las evidencias e informar.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>63. Indicar cuál de las siguientes no es una fase del análisis forense.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Identificación del incidente.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Análisis de la nube.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Captura de las evidencias.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Preservación de las evidencias.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>64. Indicar cuál es la regla de oro del análisis forense.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Proteger los metadatos.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Proteger el original de la evidencia.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Proteger las cookies de navegación.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Proteger los procesos en ejecución.</button>
+  </div>
+
 </div> <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
