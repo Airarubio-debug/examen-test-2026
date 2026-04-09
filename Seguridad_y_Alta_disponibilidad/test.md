@@ -528,6 +528,286 @@
     <button class="opcion" onclick="verificar(this, false)">d) Proteger los procesos en ejecución.</button>
   </div>
 
+<div class="pregunta">
+    <p><strong>65. Ocultar los caracteres cuando se introduce una contraseña es una medida:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Innecesaria.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) De seguridad pasiva.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) De seguridad activa.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) De seguridad física.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>66. Indica de las siguientes cuál no es una categoría de ataque activo.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Suplantación de identidad.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Interceptación de datos y análisis del tráfico (Es un ataque pasivo, solo escucha).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Degradación fraudulenta del servicio.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Modificación de mensajes.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>67. De las siguientes afirmaciones, indica cuál de ellas es verdadera.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Vulnerabilidad es lo mismo que amenaza.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Riesgo para un sistema informático es lo mismo que amenaza.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Amenaza y ataque representan lo mismo.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) El ataque pasivo obtiene información.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>68. Indicar cuál de las siguientes opciones es la correcta con relación a la exploración de puertos en un ataque.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Puede indicar si el equipo a atacar está activo o no.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) No permite conocer los servicios vulnerables del equipo.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Como la detección del sistema operativo del equipo no es completa, no sirve para el ataque.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) No aporta ninguna información útil.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>69. Indicar si el phishing está relacionado con los ataques activos por suplantación de identidad.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) No, imposible, no tienen ninguna relación.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) No, el phishing no es un ataque activo.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Sí, el objetivo del phishing es conseguir credenciales (haciéndose pasar por entidad legítima).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) No, el phishing se basa en una degradación fraudulenta de un servicio.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>70. De las siguientes respuestas, indicar cuál es la que establece la diferencia entre troyanos, virus y gusanos.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El troyano no causa ningún daño.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) El gusano no debe esperar a que se ejecute ningún archivo (se auto-replica por la red).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El gusano no destruye.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El troyano solamente ralentiza el sistema de red.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>71. Los rootkits se caracterizan por:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Autoenviarse por correo electrónico.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Implementar técnicas para permanecer ocultos.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Infectar a otros ejecutables.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Presentar publicidad no deseada.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>72. El análisis del software malicioso:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La mayoría de las veces es un análisis dinámico.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) La mayoría de las veces es un análisis estático porque no se dispone del código fuente (se analiza el binario o desensamblado).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Siempre se dispone del código fuente y se puede hacer un análisis dinámico o estático.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Siempre se analiza el código línea a línea.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>73. Si la red en la que trabajamos disminuye la velocidad de transferencia de información, ralentizando la conexión con el servidor, puede indicar la presencia de un:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Troyano.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Virus.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Gusano (Al propagarse masivamente saturan el ancho de banda).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Spyware.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>74. Los rootkits se caracterizan por (variación de pregunta):</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Autoenviarse por correo electrónico.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Obtener privilegios (Acceso root/administrador).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Infectar a otros ejecutables.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Presentar publicidad.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>75. Una aplicación que realice un ataque por fuerza bruta para descubrir la contraseña de un usuario:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Necesitará siempre de un diccionario.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Para que tenga éxito, primero se debe poder acceder al sistema (al formulario de login o al archivo de hashes).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Necesita siempre de un fichero de texto con posibles contraseñas.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Debe estar instalada en el equipo víctima.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>76. De las siguientes acciones, indica cuál de ellas crees tú que NO se produciría nunca en un phishing bancario.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Se disfraza la página web haciendo que parezca la de un banco.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Se rastrean páginas web localizando direcciones de correo (reconocimiento previo).</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Se alquila una botnet para realizar el ataque (Las botnets son típicas de DDoS, el phishing es engaño al usuario, no ataque de denegación).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Se solicita entrar en una dirección para solucionar un posible problema de seguridad.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>77. De las siguientes, indicar cuál es una medida de persistencia (fase 4 de un ataque):</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Desconectar los servicios inútiles o peligrosos.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El borrado de huellas.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Utilizar herramientas de monitorización de logs.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Instalar una puerta trasera (Backdoor).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>78. Indicar cuál es la función del comando whois.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Informa sobre quién es el usuario que ejecuta el comando.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Informa sobre el sistema operativo instalado.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Informa sobre el dominio dado (registros, propietario, DNS).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Ninguna de las anteriores funciones.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>79. De las siguientes, indicar cuál no es una contramedida de la fase de exploración (fase 1 de un ataque).</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Definir una política de contraseñas robusta (Esto protege la fase de explotación/acceso, no la de exploración).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Instalar un sistema de detección de intrusos (IDS).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Filtrar paquetes para evitar la detección de la plataforma.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Restringir la información que se difunde a través de los servicios de DNS.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>80. Indicar cuál de las siguientes es una buena práctica relacionada con la seguridad en la navegación:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Descargar programas de seguridad solo desde el sitio oficial, para evitar la descarga de archivos manipulados.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Revisar la configuración de seguridad del programa cliente.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Utilizar un antivirus proactivo para dispositivos que se conecten.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) No responder las solicitudes de desconocidos.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>81. Si recibes un correo electrónico indicando que accedas a Google.com por algún motivo, indica qué NO deberías hacer.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Miraría el remitente.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Me daría confianza por la web indicada y accedería (El enlace visual puede estar camuflado).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Miraría el certificado digital para ver si está caducado.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Me resultaría extraño porque la página de Google no va con mayúscula.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>82. Indicar cuál de las siguientes es una técnica de envío de correos electrónicos falsos para robar información.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Smishing.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Cadenas.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Hoax.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Phising.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>83. Indicar cuál de los siguientes no es un paso adecuado en el uso del correo electrónico.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Analizar con un antivirus todos los archivos adjuntos.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) No acceder a los enlaces incluidos en el correo electrónico (si es sospechoso).</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Abrir el correo para conocer su contenido (si no conoces la procedencia, no debes abrirlo a la ligera).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Analizar la procedencia del correo electrónico.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>84. De las siguientes técnicas, indicar cuál de ellas es utilizada para el robo de información para cometer delitos informáticos.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Basureo.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Ingeniería social.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Virus.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Amenazas.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>85. De los siguientes, indicar cuál busca patrones de red específicos generados por un malware conocido.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Basado en firma (Signatures).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Basado en anomalías.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Sistemas de detección de intrusiones de host (HIDS).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Basado en el análisis de protocolo con estado.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>86. De los siguientes, indicar cuál no es un tipo de IDS.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) IDS basado en red.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) IDS basado en host.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) IDS basado en protocolo.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) IDS basado en diccionario.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>87. De las siguientes afirmaciones, indicar cuál describe un sistema de detección de intrusiones (IDS).</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Se puede configurar para permitir la conexión del intruso cuando se genere una alerta.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Inspecciona paquetes entrantes y salientes en la red e identifica patrones sospechosos.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) No detecta intrusiones realizadas desde dentro (internas).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) No genera alarmas cuando da falsos positivos.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>88. De las siguientes opciones, indicar cuál de ellas es un objetivo fundamental de los IDS.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Detectar y permitir un ataque a la red.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Permitir las conexiones que son estables.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Identificar comportamientos anómalos en la red.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Permitir la transmisión segura de información.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>89. Indicar dónde se sitúa normalmente un IPS en la red.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Detrás del cortafuegos (analizando el tráfico que el firewall ha dejado pasar).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Frente al cortafuegos.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Combinado con el cortafuegos.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) No requiere cortafuegos.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>90. Indica cuál es la opción falsa de las siguientes afirmaciones relacionadas con posibles ataques realizados por personas:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La ingeniería social es un acto tipificado como delito por la ley.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) El basureo se basa en obtener información dejada encima de la mesa (Falso, el basureo es rebuscar en la basura; encima de la mesa es Clean Desk).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El shoulder surfing consiste en "espiar" físicamente a los usuarios.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El masquerading se basa en suplantar la identidad de un usuario autorizado.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>91. De las siguientes afirmaciones indicar cuál de ellas es correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Riesgo para un sistema informático es lo mismo que amenaza.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) En redes sociales es indiferente publicar información sensible y confidencial.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) En el sistema debe existir y utilizarse un perfil de usuario con privilegios restringidos (Principio del mínimo privilegio).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Respecto a posibles ataques a realizados por personas, la ingeniería social es un acto tipificado como delito por la ley.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>92. De las siguientes afirmaciones indicar cuál de ellas es correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Aunque no haya vulnerabilidades sigue habiendo amenazas (la amenaza existe fuera del sistema).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La herramienta Tripwire es utilizada para realizar violaciones de la seguridad del sistema.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Un ataque de denegación de servicio (DoS) exitoso no involucra un acceso al sistema.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Mantener el sistema operativo actualizado no es una prioridad.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>93. En relación con el ataque activo indicar cuál de las siguientes afirmaciones NO es correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Son una amenaza para la integridad y la disponibilidad.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) No hay daño en el sistema (Falso, los ataques activos alteran, bloquean o destruyen).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La atención se centra en la detección.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Hay modificación de la información.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>94. En relación con la protección del entorno de la información indicar cuál no es una buena práctica general.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Mantener la privacidad del perfil.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Configurar la visualización de archivos ocultos.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Realizar la instalación de complementos extras como barras de tareas (Suelen contener adware o spyware).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Deshabilitar las carpetas compartidas.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>95. De las siguientes definiciones indicar cuál de ellas se ajusta a un IDS (Sistema de detección de intrusiones).</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Analiza las conexiones y los protocolos en tiempo real para determinar si se va a producir o si se está produciendo algún incidente.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Emite alarmas y pueden descartar paquetes y desconectar conexiones (Eso es un IPS).</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Recoge y analiza información procedente de distintas áreas de un equipo o red con el objetivo de identificar posibles fallos de seguridad.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Identifica anomalías en un estado de protocolo comparando eventos actuales con actividades aceptadas predefinidas.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>96. De las siguientes herramientas indicar cuál de ellas es un IPS (Sistema de prevención de intrusiones).</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Tripwire (Es un HIDS, controla integridad de archivos).</button>
+    <button class="opcion" onclick="verificar(this, false)">b) OSSEC (Es un HIDS).</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Snort (Puede funcionar tanto como NIDS o como NIPS en modo inline).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Ninguna de las anteriores.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>97. En la fase de reconocimiento de un ataque indicar qué herramienta se suele utilizar.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Herramientas capturadoras de paquetes de red.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Herramientas de monitorización de logs.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Herramientas de detección de ping (Ping sweeps para localizar hosts activos).</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Herramientas de eliminación de la caché y las cookies.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>98. De las siguientes afirmaciones indicar cuál se ajusta al concepto de ‘degradación fraudulenta del servicio’.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Los mensajes dirigidos a una determinada entidad son suprimidos.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Los mensajes son retardados o reordenados (el servicio no se corta del todo, pero empeora su calidad).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Los recursos del sistema no se alteran.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Las secuencias de autenticación son capturadas y repetidas.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>99. De las siguientes afirmaciones indicar cuál de ellas es la correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Un ataque es la realización de una amenaza.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Vulnerabilidad es lo mismo que amenaza.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Hay riesgo en el sistema, aunque no exista amenaza.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) En un ataque activo el intruso monitoriza (Monitorizar es ataque pasivo).</button>
+  </div>
+
 </div> <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
@@ -623,5 +903,7 @@
       document.getElementById('aciertos').innerText = aciertos;
       document.getElementById('total').innerText = preguntas.length;
     }
+  }
+</script>
   }
 </script>
