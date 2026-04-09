@@ -664,6 +664,152 @@
     <button class="opcion" onclick="verificar(this, false)">d) Proteger los procesos en ejecución.</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>91. El servicio FTP se creó después del servicio WWW.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>92. Los objetivos del servicio FTP son ser útil, distribuido, multiplataforma y eficaz o eficiente.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>93. ¿Cuál de los siguientes NO es un tipo de usuario real del servicio FTP?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Usuario local, que existe en el sistema y se conecta con su propia cuenta.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Usuario genérico (anónimo), que se conecta sin usuario y sin clave.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Usuario virtual, que se autentica en una base de datos específica.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Usuario FTP, que tiene una clave maestra para conectarse a cualquier servidor sin autenticarse.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>94. Tanto el modo activo como el pasivo transmiten los datos por el puerto 20.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>95. En el modo aislado (standalone), es el servidor quien gestiona los puertos del servicio FTP.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>96. El servidor vsftpd crea, al instalarse, el usuario FTP con el home en /srv/ftp.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>97. El servidor FileZilla Server puede trabajar con los protocolos FTP, FTPS o SFTP.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>98. Indica cuál de las siguientes afirmaciones sobre el funcionamiento de los protocolos FTP, FTPS o SFTP es correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) En los tres casos se utilizan credenciales para establecer un canal seguro cifrado.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Solo FTP envía los datos en texto claro.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El servicio SFTP encripta la comunicación utilizando TLS/SSL.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El servicio FTPES no requiere ningún tipo de certificado.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>99. Cuando instalamos el servicio open-sftp-server, realmente instalamos el servidor sshd.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>100. Al arrancar el equipo, para que no se active un servicio ejecutamos $ systemctl enable &lt;servicio&gt;.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>101. Existe un único modo para conectarse al servidor FTP: mediante un cliente GUI.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>102. Podemos conectarnos a un servidor FTP desde el gestor de archivos conectando a unidad de red.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>103. Indica cuál de las siguientes afirmaciones relativas al cliente FileZilla es correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Tiene diez zonas diferenciadas de trabajo.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Disponemos de una ventana de solo archivos para el equipo local y para el remoto.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Existen tres familias de protocolos: FTP (FTP, FTPS y FTPES), SFTP y otra para la nube.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Podemos transferir archivos solo arrastrándolos.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>104. FileZilla Client posibilita continuar descargas interrumpidas si el servidor lo permite.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>105. Desde la terminal de cualquier sistema operativo, aunque no tengamos ningún programa cliente de FTP, podemos conectarnos a cualquier servidor FTP y transferir archivos.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>106. En el archivo de configuración de vsftpd solo podemos tener comentarios o directivas.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>107. Los grupos de ámbito global pueden contener usuarios y grupos locales y universales de otros dominios.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>108. El nombre de inicio de sesión de las cuentas de usuario (pre-Windows 2000) no debe sobrepasar los 20 caracteres.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>109. El cambio del nombre del equipo es una práctica obligatoria. Sin el cambio del nombre, el equipo no se podrá integrar en el dominio.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>110. Cuando un usuario anónimo se conecta al servidor FTP, entra al directorio home del usuario ftp (/srv/ftp) y este es su directorio raíz por la utilización del ambiente o «jaula chroot».</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>111. Indica cuál de estas afirmaciones respecto a las opciones del servidor vsftpd para usuarios anónimos es correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La carga de archivos está desactivada por defecto, pero podemos activarla.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La directiva anon_other_write_enable=YES permite que modifiquen los archivos que pertenecen a usuarios anónimos.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La directiva anon_mkdir_write_enable=YES permite que puedan crear directorios.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Todas las anteriores son correctas.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>112. El servidor de FileZilla guarda su configuración en archivos XML.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>113. El servidor de FileZilla nos permite configurar el nivel de registro que queremos aplicar al servidor en cinco niveles.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
 </div> <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
