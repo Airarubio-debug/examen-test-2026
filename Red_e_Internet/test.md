@@ -810,6 +810,192 @@
     <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>114. Los clientes de correo también se denominan...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) SMTP.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) MUA.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) MTA.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) MDA.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>115. Los protocolos que se utilizan para descargar los correos desde un MDA son...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) MTA y MDA.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) POP3 e IMAP4.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) POP3 y SMTP.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) IMAP4 y SMTP.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>116. Los correos electrónicos permiten enviar...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Solo texto.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Solo contenido multimedia.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Texto y contenido multimedia.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Solo mensajes cortos de menos de 255 caracteres.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>117. Cuando un servidor MTA delega en otro MTA el envío de todo el correo, al segundo MTA se le llama...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Smartphone.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Middleware.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Middle host.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Relay host.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>118. ¿Qué comando sirve para averiguar cuál es el MTA del dominio «example.com»?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) dig example.com A</button>
+    <button class="opcion" onclick="verificar(this, false)">b) mta-find example.com</button>
+    <button class="opcion" onclick="verificar(this, true)">c) dig example.com MX</button>
+    <button class="opcion" onclick="verificar(this, false)">d) host example.com</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>119. El tipo de registro DNS que identifica al MTA de un dominio es...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) A.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) MX.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) TX.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) PTR.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>120. El comando SMTP para indicar el destinatario del mensaje es...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) HELO.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) MAIL FROM.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) RCPT TO.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) DATA.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>121. Es posible recibir correos externos dirigidos a nuestro dominio sin haber configurado explícitamente el registro MX para ese dominio (debido a que los servidores intentarán resolver el registro A como alternativa).</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>122. Cuando hay varios registros MX, ¿cuál se usa primero?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El primero que aparece en el archivo de configuración de la zona.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) El que tiene menor prioridad (el número más bajo).</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El que aparece el último en la zona.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Es ilegal tener más de un MX.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>123. ¿Qué MUA podemos utilizar para leer el correo desde la terminal de Linux en modo texto?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Thunderbird.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Gmail.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Hotmail.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Alpine.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>124. En el protocolo POP3, ¿qué puerto se utiliza por defecto para el tráfico en texto plano y cuál para el tráfico cifrado SSL/TLS, respectivamente?</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) 110 y 995.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) 252 y 8080.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) 230 y 500.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) 995 y 110.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>125. ¿Cómo se denomina al servidor encargado de entregar correo al MUA?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) POP3.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) MTA.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) MDA.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) MUA.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>126. Un MUA utiliza el protocolo ___ o ___ para descargar el correo desde el MDA.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) SMTP o IMAP4.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) POP3 o IMAP4.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) POP2 o FTP.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) IMAF o SSH.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>127. El protocolo IMAP4 usa los puertos ___ y ___ por defecto (para texto plano y cifrado, respectivamente).</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) 110 y 25.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) 143 y 993.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) 112 y 800.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) 25 y 995.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>128. El tráfico POP3 en texto plano está obsoleto, y se recomienda cifrar las comunicaciones mediante...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) TLS 1.1.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) SSL 2.0 o superior.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) SSL 3.0.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) TLS 1.2 o superior.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>129. El puerto submission (587) se utiliza para recibir correo de los MUA, y el puerto relay (25) para recibir el de los MTA.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>130. Para minimizar el riesgo de que nuestros correos acaben en la bandeja de spam, se recomiendan tres técnicas de autenticación:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) SFP, DMIK y MARC.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) SPF, DKIM y DMARC.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) SSH, MARC y DCRAC.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) SPF, DKIM y MARC.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>131. Si cerramos el puerto 25 para evitar ataques DOS/DDOS, seguiremos recibiendo todos los correos externos sin problemas.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso (El puerto 25 es necesario para la comunicación entre MTAs, si se cierra, no entrará correo de otros dominios).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>132. En el caso de que nuestra organización tuviera un volumen moderado o reducido, sería más recomendable contratar un servicio de correo externo (en la nube) que montar uno propio.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>133. ¿Qué garantía es opcional en TLS?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Confidencialidad.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Autenticación del servidor.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Integridad.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Autenticación del cliente.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>134. Las listas de correo únicamente son privadas y el usuario decide suscribirse a ellas.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>135. El usuario decide suscribirse a una lista de correo pública pulsando en algún enlace, por ejemplo.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>136. ¿Qué aplicación permite el envío de mensajería instantánea por la red local sin necesidad de servidor?</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) IP Messenger.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Slack.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Discord.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) MS Teams.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>137. Los correos enviados a la lista se almacenan en el servidor por un tiempo determinado, con lo que permiten su consulta vía web.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>138. Para que los mensajes de las listas de distribución públicas no se envíen a la bandeja de spam, estas deberían...</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Confirmar la suscripción mediante correo electrónico y mostrar indicaciones claras para darse de baja mediante un enlace.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Meter las direcciones sin confirmar.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Únicamente confirmar la suscripción.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Solo mostrar indicaciones para darse de baja.</button>
+  </div>
+
 </div> <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
