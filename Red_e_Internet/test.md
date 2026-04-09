@@ -242,6 +242,164 @@
   <button id="btn-repetir" onclick="location.reload()">↻ Repetir test</button>
 </div>
 
+<div class="pregunta">
+    <p><strong>35. Un ordenador tiene la IP 170.10.30.5, y máscara 255.255.0.0. Su identificador de red es...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) 5.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) 34.5.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) 170.10.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) 170.10.30.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>36. En la configuración manual o fija de los parámetros de red, indica cuál de los siguientes parámetros no se configura.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) IPv4.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) IPv6.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Servidor DNS.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Servidor DHCP.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>37. Un adaptador de red tiene IP 170.10.30.1 y máscara 255.255.0.0. En esa IP, indica cuál es el identificador del host o del adaptador dentro de la red.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) 170.10</button>
+    <button class="opcion" onclick="verificar(this, false)">b) 170.10.30</button>
+    <button class="opcion" onclick="verificar(this, false)">c) 1</button>
+    <button class="opcion" onclick="verificar(this, true)">d) 30.1</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>38. «Es obligatorio que la puerta de enlace predeterminada y los servidores DNS que se establezcan en la configuración de red de un ordenador estén en la misma red que el ordenador para que este pueda conectarse y trabajar en Internet».</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>39. En la configuración de los adaptadores de red, si se quiere que la IP se asigne mediante DHCP, indica cuál debe ser el valor asignado al parámetro renderer (en Ubuntu/Netplan).</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) renderer: networkd</button>
+    <button class="opcion" onclick="verificar(this, false)">b) renderer: NetworkManager</button>
+    <button class="opcion" onclick="verificar(this, false)">c) renderer: dhcp</button>
+    <button class="opcion" onclick="verificar(this, false)">d) renderer: false</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>40. De los siguientes mensajes DHCP, indica cuál de ellos no es enviado de cliente a servidor DHCP.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) DHCP_ACK.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) DHCP_RELEASE.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) DHCP_DISCOVER.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) DHCP_REQUEST.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>41. Cuando un cliente DHCP solicita la renovación de una concesión DHCP, el primer mensaje que envía es...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) DHCP_DISCOVER.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) DHCP_OFFER.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) DHCP_REQUEST.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) DHCP_RELEASE.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>42. En un proceso normal de solicitud y asignación de una IP en un cliente DHCP desde un servidor, se transmiten mensajes DHCP en este orden:</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) DHCP_DISCOVER, DHCP_OFFER, DHCP_REQUEST, DHCP_ACK.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) DHCP_DISCOVER, DHCP_REQUEST, DHCP_OFFER, DHCP_ACK.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) DHCP_OFFER, DHCP_DISCOVER, DHCP_REQUEST, DHCP_ACCEPT.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) DHCP_OFFER, DHCP_REQUEST, DHCP_DISCOVER, DHCP_ACCEPT.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>43. Indica cuál de los siguientes parámetros no se considera obligatorio para ser entregado por un servidor DHCP a los clientes.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Direcciones IP de los servidores DNS.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Direcciones IP para los clientes.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Tiempo de concesión.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Tiempo de renovación de licencia.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>44. Señala el método de asignación DHCP en el que un mismo adaptador de red no puede recibir desde un mismo servidor diferentes direcciones IP.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Asignación manual.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Asignación automática.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Asignación dinámica.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Ninguna de las anteriores.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>45. Indica en qué directorio se encuentra el archivo de configuración dhcpd.conf en sistemas Ubuntu.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) /etc/</button>
+    <button class="opcion" onclick="verificar(this, true)">b) /etc/dhcp/</button>
+    <button class="opcion" onclick="verificar(this, false)">c) /etc/init.d/</button>
+    <button class="opcion" onclick="verificar(this, false)">d) /var/lib/dhcp/</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>46. Indica en qué declaración del archivo de configuración dhcpd.conf se deben especificar los rangos de direcciones IP que se asignan dinámicamente.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) subnet.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) shared-network.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) host.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) group.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>47. De los siguientes comandos, indica cuál no se debe usar en sistemas GNU/Linux Ubuntu relacionados con el funcionamiento de DHCP y la configuración de red (por estar obsoleto frente a Netplan/iproute2).</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) route.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) ip.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) dhclient.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) ifup.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>48. De los siguientes comandos, indica cuál se utiliza para detener el servicio DHCP en sistemas GNU/Linux Ubuntu.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) sudo /etc/init.d/dhcp3-server start</button>
+    <button class="opcion" onclick="verificar(this, false)">b) /etc/init.d/dhcp3-server</button>
+    <button class="opcion" onclick="verificar(this, false)">c) sudo service dns-server start</button>
+    <button class="opcion" onclick="verificar(this, true)">d) service dhcp3-server stop</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>49. El paquete para instalar el servidor DHCP de ISC en sistemas GNU/Linux Ubuntu se llama:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) dhcp.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) isc-dhcp-server.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) dhcpd.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) dhcpd-isc-server.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>50. Si se recibe una configuración DHCP no permitida, se manda un mensaje DHCPNack denegando esa configuración. Indica cuál es, de los siguientes, el parámetro utilizado para ello.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) range.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) group.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) authoritative.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) param.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>51. Indica cuál de las siguientes afirmaciones es verdadera.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) El servidor DHCP mantiene una base datos con las conexiones activas.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El servidor DHCP puede detectar clientes no autorizados.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El servidor DHCP no puede ofrecer parámetros de red a varias subredes a la vez.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El servidor DHCP no permite la realización de auditorías.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>52. Indica cuál de las siguientes situaciones no se podrá resolver mediante un servidor DHCP.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Un equipo no autorizado con una IP válida puede acceder a la red.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Un equipo que se reubica en una subred diferente hay que configurarlo manualmente.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Cuando se configuran los parámetros de los equipos de la red de forma manual, se pueden introducir errores.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La configuración manual de los parámetros de los equipos de la red es administrativamente tediosa.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>53. Indica cuál de las siguientes afirmaciones es falsa:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El DHCP snooping se configura en el switch.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El rogue DHCP tiene como objetivo posibilitar ataques man-in-the-middle.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) En el switch hay que indicar qué puertos son asignados a servidores DHCP autorizados.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) El DHCP snooping bloquea mensajes tipo DISCOVER y REQUEST emitidos desde puertos no asignados a servidores DHCP autorizados.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>54. Indica cuál es la verdadera de las siguientes afirmaciones referidas al mensaje DHCPNack utilizado por un servidor DHCP autoritativo.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Reconocer la configuración asignada por otro servidor DHCP.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Rechazar la configuración autoasignada por un cliente.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Aceptar la configuración autoasignada por un cliente.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Impedir que un cliente reciba los parámetros de configuración de red de otro servidor DHCP.</button>
+  </div>
+
 <script>
   let indexActual = 0;
   let aciertos = 0;
