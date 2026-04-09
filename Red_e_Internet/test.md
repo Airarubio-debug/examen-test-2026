@@ -234,15 +234,7 @@
     <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
   </div>
 
-</div> <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
-
-<div id="resultados">
-  <h2>¡Test completado! 🎉</h2>
-  <p style="font-size: 18px;">Has acertado <strong id="aciertos">0</strong> de <strong id="total">0</strong> preguntas.</p>
-  <button id="btn-repetir" onclick="location.reload()">↻ Repetir test</button>
-</div>
-
-<div class="pregunta">
+  <div class="pregunta">
     <p><strong>35. Un ordenador tiene la IP 170.10.30.5, y máscara 255.255.0.0. Su identificador de red es...</strong></p>
     <button class="opcion" onclick="verificar(this, false)">a) 5.</button>
     <button class="opcion" onclick="verificar(this, false)">b) 34.5.</button>
@@ -671,6 +663,14 @@
     <button class="opcion" onclick="verificar(this, false)">c) Proteger las cookies de navegación.</button>
     <button class="opcion" onclick="verificar(this, false)">d) Proteger los procesos en ejecución.</button>
   </div>
+
+</div> <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
+
+<div id="resultados">
+  <h2>¡Test completado! 🎉</h2>
+  <p style="font-size: 18px;">Has acertado <strong id="aciertos">0</strong> de <strong id="total">0</strong> preguntas.</p>
+  <button id="btn-repetir" onclick="location.reload()">↻ Repetir test</button>
+</div>
 
 <script>
   let indexActual = 0;
