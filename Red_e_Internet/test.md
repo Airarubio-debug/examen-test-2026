@@ -400,6 +400,278 @@
     <button class="opcion" onclick="verificar(this, false)">d) Impedir que un cliente reciba los parámetros de configuración de red de otro servidor DHCP.</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>55. Completa la frase: El protocolo HTTP es un protocolo de transferencia de ___. Por defecto, establece el puerto ___ como puerto con el que se comunica el servidor con el ___. Para realizar una comunicación ___ entre un servidor y un cliente se necesita establecer previamente una conexión ___. En una comunicación HTTP, el cliente envía mensajes de ___, y el servidor envía mensajes de ___.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) TCP, 80, cliente, hipertexto, HTTP, respuesta, petición.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) hipertexto, TCP 80, cliente, HTTP, TCP, petición, respuesta.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) HTTP, 80, TCP, hipertexto, cliente, petición, respuesta.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) hipertexto, 80, cliente, TCP, HTTP, respuesta, petición.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>56. ¿Cuál de los siguientes datos no forma parte de una línea de petición de un mensaje HTTP?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Versión de protocolo.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Método.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) URI.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Descripción de estado.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>57. ¿Cuál de los siguientes datos forma parte de una línea de respuesta de un mensaje HTTP?</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Versión de protocolo.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Método.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Cuerpo.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Servidor.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>58. En principio, MIME se desarrolló para permitir la transmisión de multitud de tipos de archivos mediante:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El protocolo HTTP.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El protocolo FTP.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) El correo electrónico.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El protocolo DNS.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>59. El elemento de un documento web que sirve para enlazar con otro documento web se llama:</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Hipertexto.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Hipermedio.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Hipervínculo.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) HTML.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>60. Una vez que se ha instalado el servidor web Apache, ¿qué carpeta es tomada como carpeta raíz del sitio web?</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) /var/www/html</button>
+    <button class="opcion" onclick="verificar(this, false)">b) /var/lib/apache2</button>
+    <button class="opcion" onclick="verificar(this, false)">c) /etc/apache2</button>
+    <button class="opcion" onclick="verificar(this, false)">d) /etc/init.d/apache2</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>61. Tras instalar el servidor Apache en un sistema Ubuntu, el archivo principal de configuración es...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) /etc/apache/httpd.conf</button>
+    <button class="opcion" onclick="verificar(this, true)">b) /etc/apache2/apache2.conf</button>
+    <button class="opcion" onclick="verificar(this, false)">c) /etc/apache/apache2.conf</button>
+    <button class="opcion" onclick="verificar(this, false)">d) /var/www</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>62. Indica cuál de los siguientes archivos se utiliza para la resolución del servidor web el equipo local.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) /etc/apache/httpd.conf</button>
+    <button class="opcion" onclick="verificar(this, false)">b) /etc/apache2/apache2.conf</button>
+    <button class="opcion" onclick="verificar(this, true)">c) /etc/hosts</button>
+    <button class="opcion" onclick="verificar(this, false)">d) /etc/apache/apache2.conf</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>63. Indica cuál de los siguientes comandos volvería a arrancar el servicio Apache.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) $ sudo systemctl apache2 restart</button>
+    <button class="opcion" onclick="verificar(this, true)">b) $ sudo systemctl restart apache2</button>
+    <button class="opcion" onclick="verificar(this, false)">c) $ sudo service restart apache2</button>
+    <button class="opcion" onclick="verificar(this, false)">d) $ sudo /etc/init.d/apache restart</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>64. De los siguientes servidores web, indica cuál de ellos tiene una mayor implantación a nivel global.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Apache.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) IIS.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Google.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Nginx.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>65. Indica en cuál de los siguientes directorios se encuentran los archivos de carga de todos los módulos instalados para Apache.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) /usr/lib/apache2/modules</button>
+    <button class="opcion" onclick="verificar(this, false)">b) /etc/apache2/modules</button>
+    <button class="opcion" onclick="verificar(this, false)">c) /etc/apache2/mods-enabled</button>
+    <button class="opcion" onclick="verificar(this, true)">d) /etc/apache2/mods-available</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>66. En la configuración de un servidor virtual, la directiva DocumentRoot debe escribirse en el archivo de configuración del servidor virtual...</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Dentro de la directiva VirtualHost.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Antes del comienzo de la directiva VirtualHost.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Después de finalizar la directiva VirtualHost.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Antes de comenzar la directiva NameVirtualHost.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>67. La directiva de configuración de Apache ServerRoot /apache indica que...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Los archivos de configuración del servidor están en /apache.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La carpeta raíz del sitio web es /apache.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Las páginas web del sitio se almacenan bajo el directorio /apache.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) El servidor está instalado en el directorio /apache.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>68. De las siguientes afirmaciones, indica la opción verdadera.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El registro de Apache2 es similar al registro de Windows: almacena configuraciones del sistema.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) La instalación de Apache2 deja, por defecto, activados sus mecanismos de registro de actividad.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El registro de Apache2 no almacena registro de actividad del servidor web.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El registro de Apache2 no almacena información sobre los accesos al servidor web.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>69. En relación con el módulo mod_userdir, indica cuál estas opciones es correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Cualquier usuario puede tener en su home su espacio web.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El usuario especificado es el dueño de su home.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Todos los usuarios, por defecto, pueden tener web propia.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El usuario especificado es el dueño del dominio.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>70. Respecto a la directiva Satisfy, indica cuál es la opción correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Selecciona los usuarios autenticados que pueden acceder a un recurso.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Dispone de los parámetros allow y deny.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Puede requerir autenticación HTTP y por IP.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Las opciones a y b.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>71. Indica cuál de las siguientes afirmaciones es falsa.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La autenticación se lleva a cabo mediante el módulo mod_auth.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) La autorización se controla mediante la sección Directory.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Hay, básicamente, dos tipos de autenticación: básica y digest.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La autenticación por IP equivale al control de acceso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>72. La autenticación es un...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Mecanismo para verificar la existencia del usuario.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Mecanismo para la comprobación de permisos de los usuarios.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Mecanismo de comprobación de credenciales.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Mecanismo sustitutivo de los certificados digitales.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>73. La utilización del control de acceso o autenticación por IP...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Requiere la utilización de las directivas Order y Require.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Utiliza Satisfy para combinarse con la autenticación HTTP.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) No permite la autenticación desde dominios.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Devuelve el error 403 de prohibición y da opción a volver a intentarlo.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>74. Indica cuál de las siguientes afirmaciones es cierta.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) La autenticación por IP equivale al control de acceso.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La autenticación genérica se lleva a cabo mediante el módulo mod_auth.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La sección Location no permite control de acceso.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La autorización se controla mediante la sección VirtualHost.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>75. Cuando se ejecuta en Ubuntu el comando para obtener un certificado autofirmado, ¿qué archivos se deben indicar dentro del comando?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El archivo del certificado y el de petición de firma del certificado.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El archivo de clave y el de petición de firma del certificado.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) El archivo de certificado y el de clave.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El archivo de certificado, el de petición de firma del certificado y el de clave.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>76. En el certificado digital aparece la identidad de la autoridad de certificación.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>77. Verificar la validez de un certificado requiere comprobar la firma de la autoridad de certificación (CA) usando la clave pública de la CA.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>78. El objetivo de una CA es acreditar la correspondencia entre una clave y su propietario real.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>79. Una autoridad certificadora puede tener un certificado digital emitido por otra autoridad.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>80. La autoridad certificadora (CA) se encarga de firmar digitalmente...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Los certificados de las autoridades de registro.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) La clave pública de los usuarios junto con otra información de la identidad.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Las claves privadas de los usuarios de dicha CA.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Las claves simétricas de los usuarios.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>81. En relación con la firma digital, indica cuál de las siguientes afirmaciones es la correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Al adjuntar una firma digital a un mensaje se asegura su confidencialidad.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El receptor verifica la validez de la firma con su clave pública.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Las opciones a y b.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) La firma digital de un mensaje no requiere cifrar todo el mensaje con la clave privada del remitente.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>82. El módulo ssl requiere la desactivación del puerto 80.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>83. La directiva SSLEngine no requiere ningún parámetro.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>84. El módulo ssl requiere la utilización del archivo httpd-ssl.conf.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>85. La directiva SSLRequireSSL se debe poner a On para trabajar con soporte SSL.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>86. Respecto a SHA-1, indica cuál de las siguientes afirmaciones es correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Es un algoritmo para obtener un hash o resumen digital. Se utiliza en relación con la trazabilidad de la evidencia digital.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Es un algoritmo para cifrar una evidencia digital. Se utiliza en relación con la trazabilidad de la evidencia digital.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Es un algoritmo para cifrar una evidencia digital. Se utiliza en relación con la integridad de la evidencia digital.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Es un algoritmo para obtener un hash o resumen digital. Se utiliza en relación con la integridad de la evidencia digital.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>87. En relación al proceso de análisis forense, indica cuál de las siguientes secuencias de fase es correcta.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Evaluar, analizar, adquirir e informar.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Informar, evaluar, adquirir y analizar.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Evaluar, adquirir, analizar e informar.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Adquirir, analizar, evaluar e informar.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>88. La normativa ISO/IEC 27042 se aplica a...</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Analizar e interpretar evidencias.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Evaluar, adquirir y analizar las evidencias.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Evaluar y adquirir las evidencias.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Evaluar, adquirir las evidencias e informar.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>89. Indica cuál de las siguientes no es una fase del análisis forense.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Identificación del incidente.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Análisis de la nube.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Captura de las evidencias.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Preservación de las evidencias.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>90. Indica cuál es la regla de oro del análisis forense.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Proteger los metadatos.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Proteger el original de la evidencia.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Proteger las cookies de navegación.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Proteger los procesos en ejecución.</button>
+  </div>
+
 <script>
   let indexActual = 0;
   let aciertos = 0;
