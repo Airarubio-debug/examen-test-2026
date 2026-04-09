@@ -1164,6 +1164,242 @@
     <button class="opcion" onclick="verificar(this, true)">d) DASH.</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>164. La principal desventaja de los paneles de administración es...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Que son un quebradero de cabeza en el caso de migrar.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Que no son especialmente recomendables para empresas que revendan espacio de servidor.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Que dificultan la actualización y explotación a largo plazo.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Que suponen una dependencia de un entorno de administración (lock-in).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>165. A la hora de elegir un panel de administración...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Elegiremos un panel como Webmin o Virtualmin cuando necesitemos un panel comercial robusto con un gran soporte detrás.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Elegiremos un panel como CPanel o Plesk cuando solo nos haga falta un frontend de administración sobre el servidor.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El aislamiento de usuarios en servidor compartido no es un tema crítico.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Elegiremos un panel como CPanel o Plesk cuando necesitemos un panel comercial robusto con un gran soporte detrás.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>166. HestiaCP es un panel de licencia libre, potente y centrado en la seguridad, pero muy limitado a unas pocas versiones de Linux (Debian/Ubuntu).</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>167. La filosofía y estructura de ficheros de configuración no estándar en HestiaCP es muy diferente a la de paneles como Cpanel o Plesk, y no es extrapolable.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso (HestiaCP usa ficheros estándar del sistema en gran medida).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>168. En los servicios web de HestiaCP, Apache escucha las peticiones directamente desde los puertos 80 y 443.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso (Nginx actúa como reverse proxy y escucha esos puertos, pasando la petición luego a Apache).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>169. En los servicios de email, HestiaCP implementa soporte DKIM y SSL mediante certificado con Let’s Encrypt.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>170. Para cambiar opciones de los servicios web que no vienen en el panel, podremos cambiar los ficheros de configuración de HestiaCP manualmente.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>171. HestiaCP incorpora multiprocesamiento de páginas dinámicas en ASP, PHP y JSP.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso (Soporta principalmente PHP, no incluye ASP ni JSP por defecto).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>172. Indica cuál es la opción falsa sobre HestiaCP.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Ofrece chroot jail en los usuarios SSH/SFTP, para aislamiento.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Ofrece un gran soporte multiplataforma para Windows y Linux.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Centrado en la seguridad, ofrece certificados Let’s Encrypt para correo y web.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Arquitectura reverse proxy con Apache/Nginx y soporte multiPHP.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>173. Indica la opción correcta respecto a HestiaCP y los servicios que ofrece.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Ofrece un servicio web con arquitectura reverse proxy con Apache/Nginx.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Ofrece servicio de correo electrónico con Exim, Dovecot, SpamAssasin, ClamAV y RoundCube.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Ofrece servicio DNS mediante bind.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Todas son correctas.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>174. Indica la opción correcta respecto a los servicios DNS y relacionados en la nube.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) En la nube no se utilizan los servicios DNS tradicionales.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) En lugar de servicios DNS, se utilizan balanceadores de carga, que enrutan las peticiones según latencia, ubicación geográfica, ponderación, etcétera.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El uso de monitorización y health checks ha sustituido la resolución de nombres.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) El desarrollo del cloud ha provisto a los servicios DNS de funcionalidades extendidas para funcionar correctamente a nivel global.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>175. El enrutamiento de peticiones DNS como extensión de servicio en la nube se puede realizar...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) De acuerdo con latencia, ubicación geográfica, ponderación y temperatura.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) De acuerdo con latencia, ubicación geográfica, ponderación, fallo o mezcla de varias.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) De acuerdo con fallo, latencia, ubicación geográfica y carga de cada nodo destino.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) De acuerdo con latencia, ubicación geográfica, fallo y VPC.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>176. Normalmente no es posible lanzar nuestro propio servicio DHCP en la nube (salvo contadas excepciones en soluciones privadas). Por ejemplo, en AWS se implementa mediante conjuntos de opciones elegibles.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>177. Indica la opción correcta respecto a servicios de red Cloud.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El servicio de configuración automática en Azure se llama Traffic Manager.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) En la nube no se hace uso de DHCP; se ha sustituido por la infraestructura como código o IaC.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) NetBIOS para configuración de varias máquinas virtuales está incluido en la configuración DHCP de AWS y Azure.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) En Azure no existen configuraciones personalizadas de DHCP, pero se pueden especificar los DNS de cada VNet.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>178. Indica la opción correcta referida a Infraestructura como Código.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) La IaC o infraestructura como código permite crear, configurar y mantener estructuras en la nube mediante scripting.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Existen diferentes estándares de IaC para cada proveedor de la nube, pero hay un lenguaje unificado independiente, llamado Terraform.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Todas son correctas.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) En AWS existe un editor gráfico de IaC y una galería de soluciones profesionales en scripting llamada AWS Quick Starts.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>179. Servicios como AWS S3 ofrecen espacio de almacenamiento masivo que puede usarse para servir contenido web estático sin mantener servidores.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>180. El almacenamiento de contenido web estático en la nube es una buena opción, pero es mejor el uso de servidores Apache + PHP para ello.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso (Para contenido puramente estático, S3 o Blob Storage es infinitamente más barato y eficiente).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>181. El almacenamiento de contenido web estático en la nube (S3/Blob) puede procesar peticiones PHP, ASP o JSP.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>182. Servicios como AWS S3 o Azure Blob solo se pueden usar para el almacenamiento multimedia on-line, no para contenido HTML, JS o CSS.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>183. Una «red de distribución de contenidos», o CDN, es un servicio que permite servir copias de contenidos de una web (a modo de caché) desde ubicaciones que estén más cercanas geográficamente al visitante de esta.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>184. Un CDN ofrece protección frente a ataques de phishing y robo de identidad, dado que establece una verificación de las peticiones distribuido y robusto frente a estos ataques a través de DNS Anycast.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso (Los CDN protegen contra DDoS y sobrecargas, pero no evitan el phishing u otros robos de identidad a nivel aplicación).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>185. Señala la opción incorrecta en el esquema de una aplicación moderna.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Peticiones dinámicas como PHP son atendidas por servidores clónicos en escalado horizontal, todos con el mismo código compartido de un repositorio común.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Siguen siendo necesarios servidores, que están detrás de un balanceador de carga, de forma que procesan las peticiones dinámicas, cada uno con su código fuente propio.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La multimedia de la web es servida por un almacenamiento estático masivo a escala global sin servidores concretos.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La base de datos debe poder escalar desde un servidor a un complejo clúster, sin que se vean alterados sustancialmente los modos de acceso desde la aplicación.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>186. Indica la opción incorrecta en una aplicación de una sola página o SPA.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Un ejemplo de SPA puede ser Gmail.com, Google Maps o Airbnb.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Utiliza los formularios clásicos GET o POST para el envío de peticiones, recargando el sitio web entero.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Suele realizar una carga inicial pesada y luego utiliza peticiones asíncronas para las acciones, sin refrescar la página.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) La carga inicial de datos se refiere a multimedia, HTML, librerías CSS o JS: datos web estáticos, en definitiva.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>187. Señala la opción correcta sobre el esquema de una aplicación moderna llevada a AWS.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Las peticiones son recibidas por Route 53 y divididas por el CDN CloudFront en estáticas y dinámicas.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La base de datos a la que llegan las peticiones de los servidores usualmente se implementa en servicio RDS.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Las peticiones estáticas son servidas por S3, y las dinámicas, por un balanceador de carga gestiona un grupo de servidores.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Todas son correctas.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>188. Señala la opción incorrecta respecto a servicios de AWS para implementar una aplicación moderna.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Los servidores que gestionan las peticiones dinámicas suelen estar en un grupo de autoescalado, para crecer o disminuir en número.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) El servicio CloudFlare, la CDN de AWS, tiene un coste muy reducido o incluso gratuito hasta dimensiones muy elevadas.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Los servidores que gestionan las peticiones dinámicas suelen compartir el código fuente desde un repositorio común EFS.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) El servicio Route 53 de DNS sí interviene en este esquema de infraestructura.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>189. Señala la respuesta correcta sobre la red telefónica conmutada o RTC.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Se establecía una conmutación de paquetes, manualmente o mediante máquinas, entre emisor y receptor de la comunicación.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) La principal ventaja es que tiene una capacidad de uso prácticamente ilimitada.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Se establecía un circuito, manualmente o mediante máquinas, entre emisor y receptor de la comunicación, conmutando en diferentes centralitas.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Hasta la segunda mitad del siglo XX, usaba conmutación de circuitos, y a partir de ahí conmutación de paquetes.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>190. Señala la respuesta incorrecta respecto a la transición a telefonía IP.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Los teléfonos convencionales deben sustituirse por teléfonos IP.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Los teléfonos convencionales deben sustituirse por softphones que conectan directamente con las troncales SIP.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Las centralitas privadas PBX deben sustituirse por centralitas PBX IP.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Las troncales convencionales se sustituyen por troncales SIP.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>191. La telefonía IP surge de la idea de digitalizar y encapsular la voz como datos y transmitirlos como paquetes IP por red local e Internet, abandonando progresivamente la conmutación de circuitos en favor de conmutación de paquetes.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>192. Los gateway VoIP fueron un elemento esencial en la transición de la RTC convencional a la telefonía IP en las empresas, pero hoy en día es prácticamente imposible encontrar dispositivos que permitan usar teléfonos convencionales para VoIP.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso (Aún existen y se usan adaptadores ATA o Gateways para aprovechar teléfonos antiguos).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>193. Las PBX IP son el reemplazo de las PBX convencionales para ubicaciones privadas con la transición a telefonía IP.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>194. Las PBX IP son también conocidas como troncales SIP.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso (La PBX es la centralita, la troncal SIP es la "línea" que la conecta al operador).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>195. La gestión de números virtuales (DID) o los menús de respuesta interactiva de voz (IVR) son características deseables en las PBX IP.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>196. Indica la opción verdadera respecto a la transición a telefonía IP.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) WebRTC surge como tecnología unificadora para suplir carencias de seguridad y compatibilidad, principalmente respecto a SIP.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) WebRTC fue un intento de realizar una red telefónica conmutada o RTC a través de navegadores de Internet.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) La principal desventaja de WebRTC es que necesita de plugins para funcionar.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) WebRTC tiene la ventaja de funcionar bajo navegadores de forma universal, pero no está coordinada con organizaciones de estandarización como IETF o W3C.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>197. Indica la opción correcta sobre protocolos de telefonía IP.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El protocolo SIP hace uso del protocolo SDP y de los protocolos STUN/TURN bajo framework ICE.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) El proyecto WebRTC hace uso del protocolo SDP y de los protocolos STUN/TURN bajo framework ICE.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El proyecto WebRTC hace uso de los protocolos SRTP y DTLS para dotar de más seguridad a la transmisión.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Todas son ciertas.</button>
+  </div>
+
 </div> <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
