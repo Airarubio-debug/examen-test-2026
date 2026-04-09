@@ -996,6 +996,174 @@
     <button class="opcion" onclick="verificar(this, false)">d) Solo mostrar indicaciones para darse de baja.</button>
   </div>
 
+  <div class="pregunta">
+    <p><strong>139. Cuanto mayor es la amplitud de la señal del sonido, mayor volumen perciben nuestros oídos.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>140. La ......................, expresada en hercios, mide la separación horizontal entre picos de la señal.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Latencia.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Sonoridad.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Amplitud de onda.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) Frecuencia.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>141. Las frecuencias bajas equivalen a tonos agudos y picos más juntos.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso (Las bajas equivalen a tonos graves).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>142. Cuando la señal pasa de analógico a digital, se produce pérdida de información.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>143. Ajustando la ganancia de los micrófonos al rango de entrada del ADC durante la adquisición, se evita el clipping.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>144. Los formatos con compresión que aplican técnicas para reducir su tamaño siempre tienen pérdidas de calidad.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso (Existen formatos de compresión sin pérdida, como FLAC).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>145. Podemos guardar audio utilizando el códec Opus o PCM en un formato contenedor M4A.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso (M4A se usa típicamente para ALAC o AAC).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>146. La extensión del archivo es indicadora del códec utilizado para comprimir el audio.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso (La extensión indica el formato contenedor, no el códec).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>147. Los códecs de audio pueden empezar a reproducir un bloque antes de haberlo recibido y decodificado en su totalidad.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>148. Al mecanismo de almacenar varios bloques antes de empezar a reproducir para evitar cortes se le llama...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Aprovisionamiento.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Buffering.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Descarga.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Acumulación.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>149. Al número de columnas y filas de la imagen se le llama...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Píxeles.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Relación de aspecto.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Resolución.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) ADC.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>150. Existen resoluciones estandarizadas que reciben nombres comerciales.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>151. En un sistema entrelazado, cada fotograma se envía entero.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso (Se envían las líneas pares y luego las impares).</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>152. Si vamos a montar un vídeo a partir de distintas fuentes, es importante que todas se graben con la misma cantidad de fotogramas por segundo (fps).</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>153. Actualmente, el reproductor más utilizado es...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Winamp.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) VLC Media Player.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) SM Player.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Media Monkey.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>154. Los algoritmos de compresión de imágenes funcionan aprovechando redundancias de información en la imagen.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>155. Todos los formatos de compresión de imágenes permiten tener o no tener pérdidas.</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>156. Uno de los artefactos característicos de la compresión JPEG es...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) El efecto peine.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) La aparición de bloques.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) El color es más nítido.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>157. Cuando un fotograma se codifica usando los cambios respecto al anterior, a este se le llama fotograma P.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>158. ¿Cuál de las opciones es una herramienta multiplataforma que ofrece un GUI sencillo para convertir entre archivos multimedia?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) FFmpeg.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) YouTube.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) Handbrake.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) CRF.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>159. El streaming requiere un ancho de banda proporcional a la cantidad de espectadores.</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Verdadero.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Falso.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>160. ¿Cuál de los siguientes es un protocolo de streaming?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) SMTP.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) HTTP.</button>
+    <button class="opcion" onclick="verificar(this, true)">c) RTSP.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) ASP.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>161. ¿Cuál de estas plataformas pertenece al grupo de las más importantes para hospedar pódcast en la actualidad?</strong></p>
+    <button class="opcion" onclick="verificar(this, true)">a) Anchor.fm.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Twitch.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Google Play Music.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>162. Una de las aplicaciones más versátiles para generar contenido a partir de múltiples fuentes y grabarlo en un archivo local o enviarlo a servidores de streaming en tiempo real es...</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) OBK.</button>
+    <button class="opcion" onclick="verificar(this, true)">b) OBS.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) HLS.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Content Generator.</button>
+  </div>
+
+  <div class="pregunta">
+    <p><strong>163. ¿Cuál de estos formatos de streaming es incompatible con navegadores de Apple?</strong></p>
+    <button class="opcion" onclick="verificar(this, false)">a) RTSP.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) RTMP.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) HLS.</button>
+    <button class="opcion" onclick="verificar(this, true)">d) DASH.</button>
+  </div>
+
 </div> <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
