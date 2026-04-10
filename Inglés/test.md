@@ -1048,28 +1048,25 @@
 </div> <button id="btn-siguiente" onclick="siguientePregunta()">Next Question ➡️</button>
 
 <div id="resultados">
-  <h2>¡Test completed! 🎉</h2>
-  <p style="font-size: 18px;">You scored <strong id="aciertos">0</strong> out of <strong id="total">0</strong> questions.</p>
-  <button id="btn-repetir" onclick="location.reload()">↻ Repeat test</button>
+  <h2>¡Test completado! 🎉</h2>
+  <p style="font-size: 18px;">Has acertado <strong id="aciertos">0</strong> de <strong id="total">0</strong> preguntas.</p>
+  
+  <div id="repaso-errores" style="display: none; margin-top: 30px; text-align: left;">
+    <h3 style="color: #cf222e; border-bottom: 2px solid #cf222e; padding-bottom: 5px;">Repaso de preguntas falladas:</h3>
+    <div id="lista-errores"></div>
+  </div>
+
+  <button id="btn-repetir" onclick="location.reload()" style="margin-top: 20px;">↻ Repetir test</button>
 </div>
 
 <script>
   let indexActual = 0;
   let aciertos = 0;
+  let arrayErrores = []; // Memoria para guardar los fallos
+
   const contenedorTest = document.getElementById('contenedor-test');
   const btnSiguiente = document.getElementById('btn-siguiente');
   const divResultados = document.getElementById('resultados');
-
-  // Insertar los textos de Reading y Listening dinámicamente
-  const readingText = document.getElementById('reading-text').innerHTML;
-  document.querySelectorAll('.reading-q').forEach(q => {
-    q.insertAdjacentHTML('afterbegin', readingText);
-  });
-
-  const listeningLink = document.getElementById('listening-link').innerHTML;
-  document.querySelectorAll('.listening-q').forEach(q => {
-    q.insertAdjacentHTML('afterbegin', listeningLink);
-  });
 
   let preguntasArray = Array.from(document.querySelectorAll('.pregunta'));
 
@@ -1081,7 +1078,7 @@
     }
   });
 
-  // Crear contador visual
+  // Crear contador
   const progresoDiv = document.createElement('div');
   progresoDiv.style.cssText = 'text-align: center; font-weight: bold; font-size: 16px; color: #57606a; margin-bottom: 20px; background: #f6f8fa; padding: 10px; border-radius: 8px; border: 1px solid #d0d7de;';
   contenedorTest.parentNode.insertBefore(progresoDiv, contenedorTest);
@@ -1095,7 +1092,7 @@
   }
   mezclarPreguntas(preguntasArray);
 
-  // Reordenar DOM
+  // Reordenar
   preguntasArray.forEach(pregunta => {
     pregunta.classList.remove('activa');
     contenedorTest.appendChild(pregunta); 
@@ -1105,13 +1102,16 @@
   const preguntas = preguntasArray;
 
   function actualizarProgreso() {
-    progresoDiv.innerText = `Question ${indexActual + 1} of ${preguntas.length}`;
+    progresoDiv.innerText = `Pregunta ${indexActual + 1} de ${preguntas.length}`;
   }
   actualizarProgreso();
 
   function verificar(boton, esCorrecto) {
     let contenedor = boton.parentElement;
     let botones = contenedor.querySelectorAll('button.opcion');
+    
+    // Buscar cuál era el botón correcto
+    let botonCorrecto = Array.from(botones).find(b => b.getAttribute("onclick").includes("true"));
     
     botones.forEach(b => {
       b.disabled = true;
@@ -1125,11 +1125,12 @@
     } else {
       boton.classList.add('incorrecta');
       boton.innerHTML += " ❌";
-      botones.forEach(b => {
-        if(b.getAttribute("onclick").includes("true")) {
-          b.classList.add('correcta');
-        }
-      });
+      botonCorrecto.classList.add('correcta');
+      
+      // GUARDAR EL FALLO EN LA MEMORIA
+      let textoPregunta = contenedor.querySelector('p strong').innerText;
+      let textoCorrecto = botonCorrecto.innerText;
+      arrayErrores.push({ pregunta: textoPregunta, respuesta: textoCorrecto });
     }
     
     btnSiguiente.style.display = 'block';
@@ -1145,11 +1146,27 @@
       preguntas[indexActual].classList.add('activa');
       actualizarProgreso();
     } else {
+      // FINAL DEL TEST
       progresoDiv.style.display = 'none';
       contenedorTest.style.display = 'none';
       divResultados.style.display = 'block';
       document.getElementById('aciertos').innerText = aciertos;
       document.getElementById('total').innerText = preguntas.length;
+
+      // MOSTRAR ERRORES SI LOS HAY
+      if (arrayErrores.length > 0) {
+        document.getElementById('repaso-errores').style.display = 'block';
+        let listaHTML = '';
+        arrayErrores.forEach((error, index) => {
+          listaHTML += `
+            <div style="background: #fff3f3; border-left: 5px solid #ff8182; padding: 12px; margin-bottom: 12px; border-radius: 4px;">
+              <p style="margin: 0 0 8px 0; color: #24292f;"><strong>${index + 1}. ${error.pregunta}</strong></p>
+              <p style="margin: 0; color: #1a7f37; font-weight: bold;">✔️ Respuesta: ${error.respuesta}</p>
+            </div>
+          `;
+        });
+        document.getElementById('lista-errores').innerHTML = listaHTML;
+      }
     }
   }
 </script>
