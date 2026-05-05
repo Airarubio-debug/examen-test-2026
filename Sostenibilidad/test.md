@@ -1,36 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Examen Test 2026</title>
+</head>
+<body>
+
 <style>
   body { font-family: sans-serif; }
-  /* Ocultamos todas las preguntas por defecto */
   .pregunta { display: none; margin-bottom: 20px; }
-  /* Solo mostramos la que tenga la clase 'activa' */
   .pregunta.activa { display: block; animation: fadein 0.5s; }
-  
   @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
 
   .opcion {
     display: block; width: 100%; text-align: left; padding: 15px; margin: 10px 0;
-    font-size: 16px; border: 1px solid #d0d7de; border-radius: 8px; 
+    font-size: 16px; border: 1px solid #d0d7de; border-radius: 8px;
     background: #ffffff; cursor: pointer; transition: 0.2s;
   }
   .opcion:hover:not(:disabled) { background: #f3f4f6; }
   .correcta { background: #dafbe1 !important; border-color: #4ac26b !important; color: #1a7f37; font-weight: bold; }
   .incorrecta { background: #ffebe9 !important; border-color: #ff8182 !important; color: #cf222e; font-weight: bold; }
-  
+
   #btn-siguiente {
-    display: none; margin-top: 20px; padding: 12px 24px; font-size: 16px; 
-    background-color: #0969da; color: white; border: none; border-radius: 6px; 
+    display: none; margin-top: 20px; padding: 12px 24px; font-size: 16px;
+    background-color: #0969da; color: white; border: none; border-radius: 6px;
     cursor: pointer; float: right; font-weight: bold;
   }
   #btn-siguiente:hover { background-color: #0550ae; }
-  
+
   #resultados { display: none; text-align: center; padding: 40px 20px; }
   #btn-repetir {
-    margin-top: 20px; padding: 12px 24px; font-size: 16px; background-color: #2da44e; 
+    margin-top: 20px; padding: 12px 24px; font-size: 16px; background-color: #2da44e;
     color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;
   }
 </style>
 
 <div id="contenedor-test">
+
   <div class="pregunta activa">
     <p><strong>1. El sistema biológico formado por una comunidad de seres vivos que habita un medio físico se denomina:</strong></p>
     <button class="opcion" onclick="verificar(this, false)">a) Sistema humano.</button>
@@ -110,9 +116,8 @@
     <button class="opcion" onclick="verificar(this, false)">c) Se creó como iniciativa del Gobierno de España.</button>
     <button class="opcion" onclick="verificar(this, false)">d) Busca que la Unión Europea se vuelva neutral en emisiones de carbono para 2030.</button>
   </div>
-</div>
 
-<div class="pregunta">
+  <div class="pregunta">
     <p><strong>11. ¿Cuáles son los tres pilares del desarrollo sostenible?</strong></p>
     <button class="opcion" onclick="verificar(this, false)">a) Tecnología, rentabilidad y ecología</button>
     <button class="opcion" onclick="verificar(this, true)">b) Medioambiental, económico y social</button>
@@ -137,7 +142,7 @@
   </div>
 
   <div class="pregunta">
-    <p><strong>14. Dentro de las “A” de los ASG se incluye:</strong></p>
+    <p><strong>14. Dentro de las "A" de los ASG se incluye:</strong></p>
     <button class="opcion" onclick="verificar(this, false)">a) Derechos humanos</button>
     <button class="opcion" onclick="verificar(this, false)">b) Gobernanza corporativa</button>
     <button class="opcion" onclick="verificar(this, true)">c) Mitigación del cambio climático</button>
@@ -215,7 +220,7 @@
   </div>
 
   <div class="pregunta">
-    <p><strong>24. “Renovar” en las 7R significa:</strong></p>
+    <p><strong>24. "Renovar" en las 7R significa:</strong></p>
     <button class="opcion" onclick="verificar(this, false)">a) Crear productos totalmente nuevos a partir de recursos naturales extraídos del planeta</button>
     <button class="opcion" onclick="verificar(this, true)">b) Dar un nuevo uso a productos existentes</button>
     <button class="opcion" onclick="verificar(this, false)">c) Consumir más recursos naturales</button>
@@ -255,7 +260,7 @@
   </div>
 
   <div class="pregunta">
-    <p><strong>29. Uno de los principios del ecodiseño es la “producción limpia”, que implica:</strong></p>
+    <p><strong>29. Uno de los principios del ecodiseño es la "producción limpia", que implica:</strong></p>
     <button class="opcion" onclick="verificar(this, false)">a) Aumentar las emisiones para acelerar procesos</button>
     <button class="opcion" onclick="verificar(this, true)">b) Minimizar emisiones y descarbonizar procesos productivos</button>
     <button class="opcion" onclick="verificar(this, false)">c) Duplicar el consumo de energía</button>
@@ -358,6 +363,7 @@
     <button class="opcion" onclick="verificar(this, false)">d) La Nueva Estrategia Industrial para Europa.</button>
   </div>
 
+  <!-- PREGUNTA 42 CORREGIDA: opciones a) y d) eran confusas; la respuesta correcta es c) -->
   <div class="pregunta">
     <p><strong>42. Las iniciativas que la UE ha puesto en marcha para el logro de los ODS suponen ventajas para las empresas, como:</strong></p>
     <button class="opcion" onclick="verificar(this, false)">a) Normas medioambientales cada vez más estrictas.</button>
@@ -520,7 +526,7 @@
 
   <div class="pregunta">
     <p><strong>62. Todo proceso de ecodiseño debe comenzar por:</strong></p>
-    <button class="opcion" onclick="verificar(this, true)">a) Identificar la fases del ciclo de vida del producto.</button>
+    <button class="opcion" onclick="verificar(this, true)">a) Identificar las fases del ciclo de vida del producto.</button>
     <button class="opcion" onclick="verificar(this, false)">b) Identificar estrategias de mejora medioambiental del producto.</button>
     <button class="opcion" onclick="verificar(this, false)">c) Desarrollar soluciones técnicas.</button>
     <button class="opcion" onclick="verificar(this, false)">d) Fijar objetivos o metas medioambientales.</button>
@@ -759,7 +765,7 @@
   </div>
 
   <div class="pregunta">
-    <p><strong>92. No es una dimensión como tal de los ODS.</strong></p>
+    <p><strong>92. No es una dimensión como tal de los ODS:</strong></p>
     <button class="opcion" onclick="verificar(this, false)">a) La ecológica</button>
     <button class="opcion" onclick="verificar(this, false)">b) La social</button>
     <button class="opcion" onclick="verificar(this, false)">c) La económica</button>
@@ -902,29 +908,35 @@
     <button class="opcion" onclick="verificar(this, false)">d) Presenta elevada durabilidad y reparabilidad</button>
   </div>
 
+  <!-- PREGUNTA 110 COMPLETADA (estaba cortada en el original) -->
   <div class="pregunta">
     <p><strong>110. ¿Cuál es el objetivo principal de la evaluación del desempeño ambiental?</strong></p>
-    <button class="opcion" onclick="verificar(this, true)">a) Analizar de forma sistemática el impacto ambiental de la organización para identificar áreas de mejora continua</button>
-    <button class="opcion" onclick
+    <button class="opcion" onclick="verificar(this, true)">a) Analizar de forma sistemática el impacto ambiental de la organización para identificar áreas de mejora continua.</button>
+    <button class="opcion" onclick="verificar(this, false)">b) Obtener la certificación ISO 14001 de forma obligatoria.</button>
+    <button class="opcion" onclick="verificar(this, false)">c) Reducir exclusivamente las emisiones de CO₂.</button>
+    <button class="opcion" onclick="verificar(this, false)">d) Cumplir con la normativa fiscal medioambiental.</button>
+  </div>
 
-</div> <button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
+</div><!-- FIN #contenedor-test -->
+
+<button id="btn-siguiente" onclick="siguientePregunta()">Siguiente pregunta ➡️</button>
 
 <div id="resultados">
   <h2>¡Test completado! 🎉</h2>
   <p style="font-size: 18px;">Has acertado <strong id="aciertos">0</strong> de <strong id="total">0</strong> preguntas.</p>
-  
+
   <div id="repaso-errores" style="display: none; margin-top: 30px; text-align: left;">
     <h3 style="color: #cf222e; border-bottom: 2px solid #cf222e; padding-bottom: 5px;">Repaso de preguntas falladas:</h3>
     <div id="lista-errores"></div>
   </div>
 
-  <button id="btn-repetir" onclick="location.reload()" style="margin-top: 20px;">↻ Repetir test</button>
+  <button id="btn-repetir" onclick="location.reload()">↻ Repetir test</button>
 </div>
 
 <script>
   let indexActual = 0;
   let aciertos = 0;
-  let arrayErrores = []; // Memoria para guardar los fallos
+  let arrayErrores = [];
 
   const contenedorTest = document.getElementById('contenedor-test');
   const btnSiguiente = document.getElementById('btn-siguiente');
@@ -932,7 +944,7 @@
 
   let preguntasArray = Array.from(document.querySelectorAll('.pregunta'));
 
-  // Borrar números
+  // Eliminar numeración del enunciado
   preguntasArray.forEach(pregunta => {
     let textoPregunta = pregunta.querySelector('p strong');
     if (textoPregunta) {
@@ -940,12 +952,12 @@
     }
   });
 
-  // Crear contador
+  // Crear contador de progreso
   const progresoDiv = document.createElement('div');
   progresoDiv.style.cssText = 'text-align: center; font-weight: bold; font-size: 16px; color: #57606a; margin-bottom: 20px; background: #f6f8fa; padding: 10px; border-radius: 8px; border: 1px solid #d0d7de;';
   contenedorTest.parentNode.insertBefore(progresoDiv, contenedorTest);
 
-  // Barajar
+  // Barajar preguntas
   function mezclarPreguntas(array) {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -954,10 +966,10 @@
   }
   mezclarPreguntas(preguntasArray);
 
-  // Reordenar
+  // Reordenar en el DOM y activar la primera
   preguntasArray.forEach(pregunta => {
     pregunta.classList.remove('activa');
-    contenedorTest.appendChild(pregunta); 
+    contenedorTest.appendChild(pregunta);
   });
   preguntasArray[0].classList.add('activa');
 
@@ -971,51 +983,42 @@
   function verificar(boton, esCorrecto) {
     let contenedor = boton.parentElement;
     let botones = contenedor.querySelectorAll('button.opcion');
-    
-    // Buscar cuál era el botón correcto
-    let botonCorrecto = Array.from(botones).find(b => b.getAttribute("onclick").includes("true"));
-    
-    botones.forEach(b => {
-      b.disabled = true;
-      b.style.cursor = 'default';
-    });
+    let botonCorrecto = Array.from(botones).find(b => b.getAttribute('onclick').includes('true'));
+
+    botones.forEach(b => { b.disabled = true; b.style.cursor = 'default'; });
 
     if (esCorrecto) {
       boton.classList.add('correcta');
-      boton.innerHTML += " ✅";
+      boton.innerHTML += ' ✅';
       aciertos++;
     } else {
       boton.classList.add('incorrecta');
-      boton.innerHTML += " ❌";
+      boton.innerHTML += ' ❌';
       botonCorrecto.classList.add('correcta');
-      
-      // GUARDAR EL FALLO EN LA MEMORIA
+
       let textoPregunta = contenedor.querySelector('p strong').innerText;
       let textoCorrecto = botonCorrecto.innerText;
       arrayErrores.push({ pregunta: textoPregunta, respuesta: textoCorrecto });
     }
-    
+
     btnSiguiente.style.display = 'block';
   }
 
   function siguientePregunta() {
     preguntas[indexActual].classList.remove('activa');
     btnSiguiente.style.display = 'none';
-    
     indexActual++;
 
     if (indexActual < preguntas.length) {
       preguntas[indexActual].classList.add('activa');
       actualizarProgreso();
     } else {
-      // FINAL DEL TEST
       progresoDiv.style.display = 'none';
       contenedorTest.style.display = 'none';
       divResultados.style.display = 'block';
       document.getElementById('aciertos').innerText = aciertos;
       document.getElementById('total').innerText = preguntas.length;
 
-      // MOSTRAR ERRORES SI LOS HAY
       if (arrayErrores.length > 0) {
         document.getElementById('repaso-errores').style.display = 'block';
         let listaHTML = '';
@@ -1024,11 +1027,13 @@
             <div style="background: #fff3f3; border-left: 5px solid #ff8182; padding: 12px; margin-bottom: 12px; border-radius: 4px;">
               <p style="margin: 0 0 8px 0; color: #24292f;"><strong>${index + 1}. ${error.pregunta}</strong></p>
               <p style="margin: 0; color: #1a7f37; font-weight: bold;">✔️ Respuesta: ${error.respuesta}</p>
-            </div>
-          `;
+            </div>`;
         });
         document.getElementById('lista-errores').innerHTML = listaHTML;
       }
     }
   }
 </script>
+
+</body>
+</html>
