@@ -1,0 +1,22 @@
+[
+  {
+    "question": "¿Cuáles son los tres pilares del desarrollo sostenible?",
+    "answerOptions": [
+      {"text": "Tecnología, rentabilidad y ecología", "isCorrect": false, "rationale": "La tecnología y la rentabilidad son medios, pero no definen los pilares básicos del desarrollo sostenible."},
+      {"text": "Medioambiental, económico y social", "isCorrect": true, "rationale": "Estos tres ejes representan el equilibrio necesario para que el desarrollo sea perdurable y justo."},
+      {"text": "Humano, tecnológico y regulatorio", "isCorrect": false, "rationale": "Aunque importantes, el marco regulatorio y tecnológico no son considerados pilares fundamentales por sí solos."},
+      {"text": "Ambiental, digital y financiero", "isCorrect": false, "rationale": "Lo digital y financiero son subconjuntos de las dimensiones ambiental y económica."}
+    ],
+    "hint": "Piensa en el modelo del Triple Resultado (Triple Bottom Line)."
+  },
+  {
+    "question": "El sistema biológico formado por una comunidad de seres vivos que habita un medio físico se denomina:",
+    "answerOptions": [
+      {"text": "Sistema humano", "isCorrect": false, "rationale": "Un sistema humano se centra solo en las interacciones de nuestra especie."},
+      {"text": "Ecosistema", "isCorrect": true, "rationale": "Es la unidad funcional que incluye tanto a los seres vivos (biocenosis) como al entorno físico (biotopo)."},
+      {"text": "Sociedad", "isCorrect": false, "rationale": "La sociedad es un concepto sociológico aplicado a grupos humanos."},
+      {"text": "Equilibrio", "isCorrect": false, "rationale": "El equilibrio es un estado del sistema, no el sistema en sí mismo."}
+    ],
+    "hint": "Es la unidad básica de estudio de la ecología."
+  }
+]
