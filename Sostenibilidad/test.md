@@ -1,5 +1,3 @@
-quiero que veas si los test subidos son correctas las respuestas según el .PDF:
-
 
 <!DOCTYPE html>
 <html lang="es">
